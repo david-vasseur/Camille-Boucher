@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Parisienne&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .border-gradient {
+    background: linear-gradient(90deg, #e5b2a6, #96a0aa); /* Dégradé de bordure */
+    padding: 20px; 
+    border-radius: 50%; 
+  }
+}
+
 
 :root {
   --background: #ffffff;
@@ -18,4 +28,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  color: #8dabbd;
 }

@@ -9,11 +9,36 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary_color: "#CDD5C6",
+        secondary_color: "#FBF2ED",
+        third_color: "#8dabbd",
+        fourth_color: "#E8D4C6",
+        fifth_color: "#e29e6d",
+      },
+      fontFamily: {
+        josefin: ['Josefin Sans', 'sans-serif'],
+        oldStandard: ['Old Standard TT', 'serif'],
+        parisienne: ['Parisienne', 'cursive'],
+      },
+      textShadow: {
+        'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',
+        'lg': '3px 3px 6px rgba(0, 0, 0, 1)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-shadow': {
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
+        },
+        '.text-shadow-lg': {
+          textShadow: '2px 1px 2px rgba(0, 0, 0, 1)',
+        },
+      };
+
+      addUtilities(newUtilities);
+    },
+  ],
 };
 export default config;
