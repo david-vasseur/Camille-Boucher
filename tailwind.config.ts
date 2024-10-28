@@ -1,4 +1,23 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
+
+const textShadowPlugin = plugin(function({ addUtilities }) {
+  const newUtilities = {
+    '.text-shadow': {
+      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
+    },
+    '.text-shadow-lg': {
+      textShadow: '1px 1px 1.5px rgba(0, 0, 0, 0.9)',
+    },
+  };
+
+  const formattedUtilities = Object.entries(newUtilities).reduce((acc, [key, value]) => {
+    acc[key] = value.textShadow; 
+    return acc;
+  }, {} as Record<string, string>);
+
+  addUtilities(formattedUtilities);
+});
 
 const config: Config = {
   content: [
@@ -31,18 +50,7 @@ const config: Config = {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
-      const newUtilities = {
-        '.text-shadow': {
-          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
-        },
-        '.text-shadow-lg': {
-          textShadow: '1px 1px 1.5px rgba(0, 0, 0, 0.9)',
-        },
-      };
-
-      addUtilities(newUtilities);
-    },
+    textShadowPlugin,
   ],
 };
 export default config;
