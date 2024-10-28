@@ -2,6 +2,7 @@
 import Button from '@/components/Button';
 import React from 'react';
 import { motion, useInView } from 'framer-motion';
+import Image from 'next/image';
 
 function Page() {
     const ref = React.useRef(null);
@@ -26,7 +27,7 @@ function Page() {
                 transition={{ delay: 1, duration: 1 }}
             >
                 <div className="w-[90vw] mt-2 mb-2">
-                    <img src="images/reiki1.PNG" alt="" className="rounded-2xl" />
+                    <Image src="/camille/images/reiki1.PNG" alt="" className="rounded-2xl" width={400} height={300} />
                 </div>
                 <section>
                     <h2 className="text-[2rem] text-center mt-4 mb-4 font-bold">Pourquoi choisir un soin energétique ?</h2>
@@ -56,7 +57,7 @@ function Page() {
                     <h3 className="text-[1.2rem] text-center font-semibold p-4">Connexion spirituelle et équilibre énergétique</h3>
                     <p className="p-10 pt-2 text-justify">Le Reiki permet de reconnecter avec soi-même à un niveau plus profond. Il favorise une harmonisation énergétique, vous aidant à vous sentir aligné(e) avec votre corps, votre esprit et votre environnement. Cela vous permet de vous sentir plus enraciné(e) et en paix avec ce qui vous entoure.</p>
                 <motion.div className="w-[90vw] mt-2 mb-2 m-auto">
-                    <img src="images/reiki2.PNG" alt="" className="rounded-2xl" />
+                    <Image src="/camille/images/reiki2.PNG" alt="" className="rounded-2xl" width={400} height={300} />
                 </motion.div>
                 <p className="p-4 text-justify">Le Reiki est bien plus qu&apos;une simple technique de relaxation. C&apos;est un soin énergétique complet qui agit sur les plans physique, émotionnel et spirituel. En choisissant un soin Reiki, vous faites le choix d&apos;une méthode douce et naturelle qui vous aidera à restaurer l&apos;harmonie dans votre vie et à renforcer votre bien-être global. Que vous souhaitiez vous détendre, vous reconnecter à vous-même ou faire face à des défis personnels, le Reiki est un accompagnement précieux sur votre chemin de transformation.</p>
             </section>

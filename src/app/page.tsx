@@ -1,12 +1,13 @@
 import Button from "@/components/Button";
 import Comment from "@/components/Comment";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
         <header className="relative p-6 flex flex-col gap-4 items-center pt-10">
             
-            <div className="absolute inset-0 bg-[url('/images/fond1.PNG')] bg-cover blur-[1px] z-0 bg-top"></div>
+            <div className="absolute inset-0 bg-[url('/camille/images/fond1.PNG')] bg-cover blur-[1px] z-0 bg-top"></div>
             
             <div className="relative z-10">
                 <h1 className="font-parisienne text-center text-[3rem] italic text-primary_color text-shadow-lg">Camille Boucher</h1>
@@ -27,11 +28,12 @@ export default function Home() {
             </div>
             <div className="relative p-1 rounded-full border-gradient overflow-hidden mt-10">
                 <div className="bg-white p-1 rounded-full">
-                    <img
-                    src="/images/profil.JPG"
+                    <Image
+                    src="/camille/images/profil.JPG"
                     alt="Profil Image"
                     className="rounded-full rotate-[25deg]"
-                    style={{ width: "50vw" }} 
+                    width={300}
+                    height={300} 
                     />
                 </div>
                 </div>
