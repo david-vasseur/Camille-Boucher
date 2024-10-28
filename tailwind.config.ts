@@ -11,12 +11,12 @@ const textShadowPlugin = plugin(function({ addUtilities }) {
     },
   };
 
-  const formattedUtilities = Object.entries(newUtilities).reduce((acc, [key, value]) => {
-    acc[key] = value.textShadow; 
-    return acc;
-  }, {} as Record<string, string>);
+  // const formattedUtilities = Object.entries(newUtilities).reduce((acc, [key, value]) => {
+  //   acc[key] = value.textShadow; 
+  //   return acc;
+  // }, {} as Record<string, string>);
 
-  addUtilities(formattedUtilities);
+  addUtilities(newUtilities);
 });
 
 const config: Config = {

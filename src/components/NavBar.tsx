@@ -63,7 +63,7 @@ function NavBar() {
     <>
     {burger ? 
         <div className="fixed top-0 w-full z-[999] p-4 backdrop-blur-md">
-            <TfiViewList onClick={handleMenuToggle} className=" float-end scale-[2] z-[250]" />
+            <TfiViewList onClick={handleMenuToggle} className=" float-end scale-[2] z-[9999]" />
         </div>
     : null}
     {menu && 

@@ -10,7 +10,7 @@ export const index = [
         id: 2,
         title: "Soin énergétique",
         content: "Explorez le Reiki, une approche bienveillante et naturelle pour rééquilibrer vos énergies, apaiser le corps et l'esprit, et renouer avec votre vitalité.",
-        buttonTo: "/soins_energetique",
+        buttonTo: "/soin_energetique",
         buttonDescription: "Découvrir le soin énergetique"
     },
     {

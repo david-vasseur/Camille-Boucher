@@ -18,7 +18,7 @@ export default function Home() {
 
         <main className="px-6 flex flex-col items-center justify-center">
             <h3 className="font-parisienne text-center mt-16 mb-8 text-3xl">
-                &quote;Chaque Journée est une nouvelle chance de changer votre vie...&quote;
+                &quot;Chaque Journée est une nouvelle chance de changer votre vie...&quot;
             </h3>
             <p className="font-oldStandard text-justify my-4 ">
                 Bonjour et bienvenue sur mon site ! Je suis Camille, thérapeute holistique et énergéticienne passionnée. Mon approche considère l&apos;être humain dans sa globalité, établissant un lien harmonieux entre le corps et l&apos;esprit. Ensemble, nous allons explorer le chemin du &quote;lâcher-prise&quote;, favorisant ainsi une meilleure compréhension de vous-même et un bien-être durable. Ma mission est de vous accompagner avec bienveillance sur le sentier de la guérison intérieure, afin que vous puissiez retrouver votre véritable essence et vivre en pleine harmonie avec vous-même.
