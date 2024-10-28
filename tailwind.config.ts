@@ -24,6 +24,10 @@ const config: Config = {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',
         'lg': '3px 3px 6px rgba(0, 0, 0, 1)',
       },
+      boxShadow: {
+        'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',
+        'lg': '5px 2px 5px 1px rgba(0, 0, 0, 0.5)',
+      }
     },
   },
   plugins: [
@@ -33,7 +37,7 @@ const config: Config = {
           textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
         },
         '.text-shadow-lg': {
-          textShadow: '2px 1px 2px rgba(0, 0, 0, 1)',
+          textShadow: '1px 1px 1.5px rgba(0, 0, 0, 0.9)',
         },
       };
 

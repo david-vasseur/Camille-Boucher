@@ -3,7 +3,7 @@ import Button from '@/components/Button'
 import React from 'react'
 import { motion, useInView } from 'framer-motion';
 
-function page() {
+function Page() {
     const ref = React.useRef(null);
     const isInView = useInView(ref);
     return (
@@ -69,7 +69,7 @@ function page() {
             </section>
             <section>
                 <h2 className="text-[2rem] font-semibold p-4 text-center">Prêt(e) à libérer vos tensions et retrouver votre bien-être ?</h2>
-                <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n’hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez équilibre et sérénité dans votre vie quotidienne.</p>
+                <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez équilibre et sérénité dans votre vie quotidienne.</p>
             </section>
             <Button to='/' description='Contactez-moi...' />
             <section>
@@ -89,4 +89,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

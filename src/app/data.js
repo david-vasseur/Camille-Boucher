@@ -8,14 +8,14 @@ export const index = [
     },
     {
         id: 2,
-        title: "Soins énergétique",
+        title: "Soin énergétique",
         content: "Explorez le Reiki, une approche bienveillante et naturelle pour rééquilibrer vos énergies, apaiser le corps et l'esprit, et renouer avec votre vitalité.",
         buttonTo: "/soins_energetique",
         buttonDescription: "Découvrir le soin énergetique"
     },
     {
         id: 3,
-        title: "Massages holistique",
+        title: "Massage holistique",
         content: "Offrez-vous un moment de détente profonde avec le massage holistique, une expérience globale qui harmonise corps, esprit et émotions pour un bien-être complet.",
         buttonTo: "/massage_holistique",
         buttonDescription: "Découvrir le massage holistique"

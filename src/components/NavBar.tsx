@@ -4,6 +4,7 @@ import { index } from '../app/data';
 import Link from 'next/link';
 import { FaBurger } from 'react-icons/fa6';
 import { TfiViewList } from 'react-icons/tfi';
+import { div } from 'framer-motion/client';
 
 function NavBar() {
     const [windowWidth, setWindowWidth] = useState(0);
@@ -63,10 +64,12 @@ function NavBar() {
   return (
     <>
     {burger ? 
-        <TfiViewList onClick={handleMenuToggle} className="fixed right-5 top-5 scale-[2] z-50" />
+        <div className="fixed top-0 w-full z-[999] p-4 backdrop-blur-md">
+            <TfiViewList onClick={handleMenuToggle} className=" float-end scale-[2] z-[250]" />
+        </div>
     : null}
     {menu && 
-        <div className={`${animatedMenu ? "scale-[1] opacity-1" : "scale-0 opacity-0" } transition-all duration-500 origin-top-left transform flex sm:flex-row flex-col sm:gap-3 gap-8 font-semibold items-center sm:bg-transparent bg-fourth_color sm:w-auto w-[100vw] sm:h-auto h-[50vh] sm:static fixed sm:rounded-none rounded-r-lg text-third_color p-5 justify-center sm:shadow-none shadow-2xl z-20 text-shadow`}>
+        <div className={`${animatedMenu ? "scale-[1] opacity-1" : "scale-0 opacity-0" } font-oldStandard transition-all duration-500 origin-top-left transform flex sm:flex-row flex-col sm:gap-3 gap-8 font-semibold items-center sm:backdrop-blur-none backdrop-blur-lg sm:bg-transparent bg-transparent sm:w-auto w-[100vw] sm:h-auto h-[50vh] sm:static fixed sm:rounded-none rounded-r-lg text-xl tracking-wider text-third_color p-5 justify-center sm:shadow-none shadow-2xl z-20 text-shadow-lg`}>
             <Link href="/" onClick={handleMenuToggle}>Accueil</Link>
             <Link href="/mon_histoire" onClick={handleMenuToggle}>Qui suis je ?</Link>
             {index.map( elem  => (

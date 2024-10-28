@@ -4,7 +4,7 @@ import React from 'react'
 import { motion, useInView } from 'framer-motion';
 
 
-function page() {
+function Page() {
     const ref = React.useRef(null);
     const isInView = useInView(ref);
   return (
@@ -67,15 +67,15 @@ function page() {
                 <p  className="p-4 text-justify">En résumé, l'EFT peut être un bon choix pour ceux qui cherchent à améliorer leur bien-être émotionnel et physique de façon rapide, simple et efficace, tout en intégrant une approche globale et complémentaire.</p>
             </section>
             <section>
-                <h2 className="text-[2rem] font-semibold p-4 text-center">Ce que vous pouvez attendre d’une séance d’EFT avec moi</h2>
+                <h2 className="text-[2rem] font-semibold p-4 text-center">Ce que vous pouvez attendre d&apos;une séance d&apos;EFT avec moi</h2>
                 <p className="p-10 pt-2 text-justify"><strong>Une approche personnalisée :</strong> Chaque personne est unique, c'est pourquoi j'adapte chaque séance en fonction de vos ressentis et de votre progression.</p>
-                <p className="p-10 pt-2 text-justify"><strong>Un espace sécurisé :</strong> Je crée un environnement d’écoute bienveillante et sans jugement, pour que vous vous sentiez en confiance tout au long du processus.</p>
-                <p className="p-10 pt-2 text-justify"><strong>Des résultats progressifs :</strong> L’EFT permet souvent de ressentir un soulagement rapide, même si parfois plusieurs séances peuvent être nécessaires pour des problématiques plus profondes.</p>
-                <p className="p-10 pt-2 text-justify"><strong>Une méthode douce et non-invasive :</strong> L’EFT utilise de simples tapotements et des affirmations, sans aucun contact direct et sans effort physique intense.</p>
+                <p className="p-10 pt-2 text-justify"><strong>Un espace sécurisé :</strong> Je crée un environnement d&apos;écoute bienveillante et sans jugement, pour que vous vous sentiez en confiance tout au long du processus.</p>
+                <p className="p-10 pt-2 text-justify"><strong>Des résultats progressifs :</strong> L&apos;EFT permet souvent de ressentir un soulagement rapide, même si parfois plusieurs séances peuvent être nécessaires pour des problématiques plus profondes.</p>
+                <p className="p-10 pt-2 text-justify"><strong>Une méthode douce et non-invasive :</strong> L&apos;EFT utilise de simples tapotements et des affirmations, sans aucun contact direct et sans effort physique intense.</p>
             </section>
             <section>
                 <h2 className="text-[2rem] font-semibold p-4 text-center">Prêt(e) à libérer vos émotions et retrouver votre bien-être ?</h2>
-                <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n’hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez sérénité et équilibre dans votre quotidien.</p>
+                <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez sérénité et équilibre dans votre quotidien.</p>
             </section>
             <Button to='/' description='Contactez-moi...' />
             <section>
@@ -98,4 +98,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

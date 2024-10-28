@@ -3,7 +3,7 @@ import Button from '@/components/Button'
 import React from 'react'
 import { motion, useInView } from 'framer-motion';
 
-function page() {
+function Page() {
     const ref = React.useRef(null);
     const isInView = useInView(ref);
     return (
@@ -18,7 +18,7 @@ function page() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: .75, duration: 1 }}
-                >Les fleurs de Bach sont des élixirs floraux qui visent à rétablir l'équilibre émotionnel et à favoriser le bien-être psychique. Développée par le Dr Edward Bach dans les années 1930, cette méthode naturelle aide à surmonter les émotions négatives en rétablissant l'harmonie intérieure.</motion.p>
+                >Les fleurs de Bach sont des élixirs floraux qui visent à rétablir l&apos;équilibre émotionnel et à favoriser le bien-être psychique. Développée par le Dr Edward Bach dans les années 1930, cette méthode naturelle aide à surmonter les émotions négatives en rétablissant l'harmonie intérieure.</motion.p>
             </header>
             <motion.main className="flex flex-col justify-center items-center mb-24"
                 initial={{ opacity: 0 }}
@@ -73,7 +73,7 @@ function page() {
                 <h2 className="text-[2rem] font-semibold p-4 text-center">Ce que vous pouvez attendre d'une consultation sur les fleurs de Bach avec moi</h2>
                 <p className="p-10 pt-2 text-justify"><strong>Un espace d'écoute empathique</strong> : Vous serez accueilli(e) dans un cadre chaleureux où chaque parole compte. Cet environnement est conçu pour que vous puissiez vous exprimer librement sur vos émotions et vos besoins.</p>
                 <p className="p-10 pt-2 text-justify"><strong>Une approche individualisée</strong> : Avant de choisir les élixirs appropriés, nous discuterons ensemble de vos ressentis. Chaque consultation est adaptée à votre histoire et vos attentes.</p>
-                <p className="p-10 pt-2 text-justify"><strong>Un moment de réflexion personnelle</strong> : Lors de la séance, vous aurez l'opportunité de prendre du recul sur vos émotions, ce qui favorisera un meilleur travail sur vous-même et votre bien-être.</p>
+                <p className="p-10 pt-2 text-justify"><strong>Un moment de réflexion personnelle</strong> : Lors de la séance, vous aurez l&apos;opportunité de prendre du recul sur vos émotions, ce qui favorisera un meilleur travail sur vous-même et votre bien-être.</p>
                 <p className="p-10 pt-2 text-justify"><strong>Un suivi pour votre épanouissement</strong> : Après notre rencontre, je vous fournirai des conseils pour intégrer les fleurs de Bach dans votre vie quotidienne et maintenir l'harmonie que vous recherchez.</p>
             </section>
             <section>
@@ -98,5 +98,5 @@ function page() {
   )
 }
 
-export default page;
+export default Page;
 
