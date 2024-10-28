@@ -26,7 +26,7 @@ function Page() {
                 transition={{ delay: 1, duration: 1 }}
             >
                 <div className="w-[90vw] mt-2 mb-2">
-                    <img src="images/bach1.JPG" alt="" className="rounded-2xl" />
+                    <img src="images/bach1.jpg" alt="" className="rounded-2xl" />
                 </div>
                 <section>
                     <h2 className="text-[2rem] text-center mt-4 mb-4 font-bold">Pourquoi choisir les fleurs de Bach ?</h2>
@@ -57,7 +57,7 @@ function Page() {
                     <p className="p-10 pt-2 text-justify">En rétablissant l&apos;équilibre émotionnel, les fleurs de Bach aident à créer une sensation d&apos;harmonie intérieure, favorisant ainsi un bien-être global et durable.</p>
                     <motion.div className="w-[90vw] mt-2 mb-2 m-auto overflow-hidden rounded-2xl shadow-xl">
                         <motion.img 
-                            src="images/bach2.PNG" 
+                            src="images/bach2.png" 
                             alt="" 
                             className="rounded-2xl" 
                             initial={{ scale: 1, filter: 'blur(0px)' }} 
