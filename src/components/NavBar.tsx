@@ -2,9 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { index } from '../app/data';
 import Link from 'next/link';
-import { FaBurger } from 'react-icons/fa6';
 import { TfiViewList } from 'react-icons/tfi';
-import { div } from 'framer-motion/client';
 
 function NavBar() {
     const [windowWidth, setWindowWidth] = useState(0);

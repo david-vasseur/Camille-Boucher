@@ -1,7 +1,5 @@
 import Button from "@/components/Button";
 import Comment from "@/components/Comment";
-import Header from "@/components/Header"
-import { FaStar } from "react-icons/fa6";
 
 export default function Home() {
   return (
