@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Comment from "@/components/Comment";
+import Slide from "@/components/Slide";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
                 &quot;Chaque Journée est une nouvelle chance de changer votre vie...&quot;
             </h3>
             <p className="font-oldStandard text-justify my-4 ">
-                Bonjour et bienvenue sur mon site ! Je suis Camille, thérapeute holistique et énergéticienne passionnée. Mon approche considère l&apos;être humain dans sa globalité, établissant un lien harmonieux entre le corps et l&apos;esprit. Ensemble, nous allons explorer le chemin du &quote;lâcher-prise&quote;, favorisant ainsi une meilleure compréhension de vous-même et un bien-être durable. Ma mission est de vous accompagner avec bienveillance sur le sentier de la guérison intérieure, afin que vous puissiez retrouver votre véritable essence et vivre en pleine harmonie avec vous-même.
+                Bonjour et bienvenue sur mon site ! Je suis Camille, thérapeute holistique et énergéticienne passionnée. Mon approche considère l&apos;être humain dans sa globalité, établissant un lien harmonieux entre le corps et l&apos;esprit. Ensemble, nous allons explorer le chemin du &quot;lâcher-prise&quot;, favorisant ainsi une meilleure compréhension de vous-même et un bien-être durable. Ma mission est de vous accompagner avec bienveillance sur le sentier de la guérison intérieure, afin que vous puissiez retrouver votre véritable essence et vivre en pleine harmonie avec vous-même.
             </p>
             <div className="flex justify-end w-full">
                 <Button to="/mon_histoire" description="En savoir plus" />
@@ -43,28 +44,36 @@ export default function Home() {
                 Je vous propose des outils complémentaires pour vous accompagner sur le chemin de la guérison et du mieux-être. Ensemble, nous explorons des pratiques douces et bienveillantes qui nourrissent l&apos;équilibre du corps et de l&apos;esprit, tout en stimulant votre vitalité. Ces soins sont conçus pour enrichir votre parcours vers un bien-être global et durable, en harmonie avec vos besoins.
             </p>
             <section className="mt-8">
-                <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto">Emotional Freedom Technique</h3>
+                <Slide side="left" className="mx-auto" width="100%">
+                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto">Emotional Freedom Technique</h3>
+                </Slide>
                 <div className="flex flex-col gap-4 items-end">
                     <p className="font-oldStandard text-justify mb-2">
                         Découvrez l&apos;EFT, une technique douce et puissante pour libérer les émotions et retrouver un équilibre intérieur.
                     </p>
-                    <Button to="/EFT" description="Découvrir" />
+                    <Button to="/eft" description="Découvrir" />
                 </div>
-                <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Soins énergétique</h3>
+                <Slide side="left" className="mx-auto" width="100%">
+                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Soins énergétique</h3>
+                </Slide>
                 <div className="flex flex-col gap-4 items-end">
                     <p className="font-oldStandard text-justify mb-2">
                         Explorez le Reiki, une approche bienveillante et naturelle pour rééquilibrer vos énergies, apaiser le corps et l&apos;esprit, et renouer avec votre vitalité.
                     </p>
                     <Button to="/soin_energetique" description="Découvrir" />
                 </div>
-                <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Massages holistique</h3>
+                <Slide side="left" className="mx-auto" width="100%">
+                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Massages holistique</h3>
+                </Slide>
                 <div className="flex flex-col gap-4 items-end">
                     <p className="font-oldStandard text-justify mb-2">
                         Offrez-vous un moment de détente profonde avec le massage holistique, une expérience globale qui harmonise corps, esprit et émotions pour un bien-être complet.
                     </p>
                     <Button to="/massage_holistique" description="Découvrir" />
                 </div>
-                <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Fleurs de Bach</h3>
+                <Slide side="left" className="mx-auto" width="100%">
+                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Fleurs de Bach</h3>
+                </Slide>
                 <div className="flex flex-col gap-4 items-end">
                     <p className="font-oldStandard text-justify mb-2">
                         Initiez-vous aux fleurs de Bach, des essences florales naturelles pour harmoniser vos émotions et retrouver un équilibre.
@@ -79,7 +88,10 @@ export default function Home() {
                 Les soins que je vous propose peuvent vous aider à travailler sur soi mais c&apos;est aussi avant tout à vous de faire le premier pas.
             </p>
             </section>
-            <h3 className="font-parisienne text-center mt-16 mb-8 text-2xl">Vos témoignages</h3>
+            <Slide side="left">
+                <h3 className="font-parisienne text-center mt-16 mb-8 text-2xl">Vos témoignages</h3>
+            </Slide>
+            
             <section className="flex flex-col items-center">
                 <Comment />
                 <Comment />

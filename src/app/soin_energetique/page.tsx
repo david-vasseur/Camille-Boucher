@@ -19,7 +19,7 @@ function Page() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: .75, duration: 1 }}
-                >Le Reiki est une méthode de soin énergétique douce et naturelle, qui vise à rétablir l&apos;équilibre du corps et de l&apos;esprit. Originaire du Japon, le mot Reiki signifie &quote;énergie vitale universelle&quote; (Rei : universel, Ki : énergie). Cette pratique consiste à canaliser l&apos;énergie universelle à travers les mains pour stimuler les capacités d&apos;auto-guérison du corps.</motion.p>
+                >Le Reiki est une méthode de soin énergétique douce et naturelle, qui vise à rétablir l&apos;équilibre du corps et de l&apos;esprit. Originaire du Japon, le mot Reiki signifie &quot;énergie vitale universelle&quot; (Rei : universel, Ki : énergie). Cette pratique consiste à canaliser l&apos;énergie universelle à travers les mains pour stimuler les capacités d&apos;auto-guérison du corps.</motion.p>
             </header>
             <motion.main className="flex flex-col justify-center items-center mb-24"
                 initial={{ opacity: 0 }}

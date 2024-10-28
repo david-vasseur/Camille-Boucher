@@ -81,7 +81,7 @@ function Page() {
             </section>
             <section className="mb-10 mt-5">
                 <h2 className="text-[2rem] font-semibold p-4 text-center">Avertissement</h2>
-                <p className="p-4 text-justify font-semibold">&quote; Il est important de noter que le massage holistique, tout comme toute autre forme de médecine douce, ne remplace en aucun cas l&apos;avis ou le traitement d&apos;un professionnel de santé qualifié. Pour toute condition médicale, il est essentiel de consulter un médecin.&quote;</p>
+                <p className="p-4 text-justify font-semibold">&quot; Il est important de noter que le massage holistique, tout comme toute autre forme de médecine douce, ne remplace en aucun cas l&apos;avis ou le traitement d&apos;un professionnel de santé qualifié. Pour toute condition médicale, il est essentiel de consulter un médecin.&quot;</p>
             </section>
             <Button to='/' description='Prendre un rendez-vous' />
         </motion.main>
