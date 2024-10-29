@@ -29,7 +29,7 @@ function Footer() {
             <Link className="ml-5 font-oldStandard" href="/mesprestations.html">Fleurs de bach</Link>
         </nav>
         <div className="text-center font-parisienne font-extrabold mt-10">
-            <span className="">Designed by David Vasseur - 2024</span>
+            <span className="">Made by David Vasseur - 2024</span>
         </div>
     </div>
   )
