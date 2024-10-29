@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Comment from "@/components/Comment";
-import Slide from "@/components/Slide";
+import Rotate from "@/components/F_Rotate";
+import Slide from "@/components/F_Slide";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,23 +23,24 @@ export default function Home() {
                 &quot;Chaque Journée est une nouvelle chance de changer votre vie...&quot;
             </h3>
             <p className="font-oldStandard text-justify my-4 ">
-                Bonjour et bienvenue sur mon site ! Je suis Camille, thérapeute holistique et énergéticienne passionnée. Mon approche considère l&apos;être humain dans sa globalité, établissant un lien harmonieux entre le corps et l&apos;esprit. Ensemble, nous allons explorer le chemin du &quot;lâcher-prise&quot;, favorisant ainsi une meilleure compréhension de vous-même et un bien-être durable. Ma mission est de vous accompagner avec bienveillance sur le sentier de la guérison intérieure, afin que vous puissiez retrouver votre véritable essence et vivre en pleine harmonie avec vous-même.
+                Bonjour et bienvenue sur mon site ! Je suis Camille, thérapeute holistique certifiée et énergéticienne passionnée. Mon approche considère l&apos;être humain dans sa globalité, établissant un lien harmonieux entre le corps et l&apos;esprit. Ensemble, nous allons explorer le chemin du &quot;lâcher-prise&quot;, favorisant ainsi une meilleure compréhension de vous-même et un bien-être durable. Ma mission est de vous accompagner avec bienveillance sur le sentier de la guérison intérieure, afin que vous puissiez retrouver votre véritable essence et vivre en pleine harmonie avec vous-même.
             </p>
             <div className="flex justify-end w-full">
                 <Button to="/mon_histoire" description="En savoir plus" />
             </div>
-            <div className="relative p-1 rounded-full border-gradient overflow-hidden mt-10">
-                <div className="bg-white p-1 rounded-full">
-                    <Image
-                    src="/camille/images/profil.JPG"
-                    alt="Profil Image"
-                    className="rounded-full rotate-[25deg]"
-                    width={300}
-                    height={300} 
-                    />
+            <Rotate>
+                <div className="relative p-1 rounded-full border-gradient overflow-hidden mt-10">
+                    <div className="bg-white p-1 rounded-full">
+                        <Image
+                        src="/camille/images/profil.JPG"
+                        alt="Profil Image"
+                        className="rounded-full rotate-[25deg]"
+                        width={300}
+                        height={300} 
+                        />
+                    </div>
                 </div>
-                </div>
-
+            </Rotate>
             
             <p className="font-oldStandard text-justify my-4 ">
                 Je vous propose des outils complémentaires pour vous accompagner sur le chemin de la guérison et du mieux-être. Ensemble, nous explorons des pratiques douces et bienveillantes qui nourrissent l&apos;équilibre du corps et de l&apos;esprit, tout en stimulant votre vitalité. Ces soins sont conçus pour enrichir votre parcours vers un bien-être global et durable, en harmonie avec vos besoins.

@@ -46,6 +46,7 @@ const config: Config = {
       boxShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',
         'lg': '5px 2px 5px 1px rgba(0, 0, 0, 0.5)',
+        'button': '1px 3px 0px rgba(0, 0, 0, 0.5)'
       }
     },
   },

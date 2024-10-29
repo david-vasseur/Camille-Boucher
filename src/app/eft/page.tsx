@@ -3,7 +3,7 @@ import Button from '@/components/Button'
 import React from 'react'
 import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
-import Slide from '@/components/Slide';
+import Slide from '@/components/F_Slide';
 
 function Page() {
     const ref = React.useRef(null);
@@ -16,7 +16,7 @@ function Page() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: .5, duration: 1 }}
-            >Emotional Freedom Technique</motion.h1>
+            >E F T</motion.h1>
             <motion.p className="font-oldStandard text-justify mt-2 mb-2"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
