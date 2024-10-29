@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/camille/images/fond2.PNG",
+        url: "http://91.134.90.159/camille/images/fond2.PNG",
       },
     ],
   },
