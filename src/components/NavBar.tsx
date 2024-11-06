@@ -69,7 +69,7 @@ function NavBar() {
         </div>
     : null}
     {menu && 
-        <div className={`${animatedMenu ? "scale-[1] opacity-1" : "scale-0 opacity-0" } pt-20 font-oldStandard transition-all duration-500 origin-top-left transform flex sm:flex-row flex-col sm:gap-3 gap-8 font-semibold items-center sm:backdrop-blur-none backdrop-blur-lg sm:bg-transparent bg-transparent sm:w-auto w-[100vw] sm:h-auto h-[50vh] sm:static fixed sm:rounded-none rounded-r-lg text-xl tracking-wider text-third_color p-5 justify-center sm:shadow-none shadow-2xl z-20 text-shadow-lg`}>
+        <div className={`${animatedMenu ? "scale-[1] opacity-1" : "scale-0 opacity-0" } pt-20 font-oldStandard transition-all duration-500 origin-top-left transform flex sm:flex-row flex-col sm:gap-3 gap-8 font-semibold items-center sm:backdrop-blur-none backdrop-blur-lg sm:bg-transparent bg-transparent sm:w-auto w-[100vw] sm:h-[90vh] h-[60vh] sm:static fixed sm:rounded-none rounded-r-lg text-xl tracking-wider text-third_color p-5 justify-center sm:shadow-none shadow-2xl z-20 text-shadow-lg`}>
             <Link href="/" onClick={handleMenuToggle}>Accueil</Link>
             <Link href="/mon_histoire" onClick={handleMenuToggle}>Qui suis je ?</Link>
             {index.map( elem  => (
