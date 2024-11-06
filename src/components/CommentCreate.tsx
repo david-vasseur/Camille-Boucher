@@ -14,7 +14,7 @@ function CommentCreate() {
     const [message, setMessage] = useState("");
     const [note, setNote] = useState<number | null>(null);
 
-    let data = {
+    const data = {
         author,
         message,
         note
@@ -27,6 +27,7 @@ function CommentCreate() {
                 headers:{ "Content-Type": "application/json" },
                 body: JSON.stringify(data)
             })
+            return response;
         } 
     }
 

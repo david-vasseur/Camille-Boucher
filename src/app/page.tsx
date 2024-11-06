@@ -1,6 +1,5 @@
 import Button from "@/components/Button";
 import CommentWrapper from "@/components/CommentWrapper";
-import Rotate from "@/components/F_Rotate";
 import Slide from "@/components/F_Slide";
 import Image from "next/image";
 
