@@ -44,7 +44,7 @@ export const pageContent = [
         id: 1,
         titleHeader: `E F T`,
         contentHeader: `L'EFT (Emotional Freedom Technique), aussi appelée "technique de libération émotionnelle", est une pratique psychocorporelle qui combine des éléments de l'acupression et de la psychologie pour aider à réduire le stress émotionnel, les traumatismes et les douleurs physiques. Le processus consiste à tapoter doucement avec les doigts sur des points spécifiques du corps (semblables aux points d'acupuncture) tout en se concentrant sur une émotion négative, un souvenir ou une douleur. Ainsi nous libérons de la charge émotionnelle en lien avec la problématique.`,
-        imageHeader: `/camille/images/Untitled design.PNG`,
+        imageHeader: `/images/Untitled design.PNG`,
         titleWhy: `Pourquoi choisir une séance d'eft ?`,
         resumeWhy: `Choisir l'EFT (Emotional Freedom Technique) peut offrir plusieurs avantages, en particulier si vous cherchez une approche simple, douce et complémentaire pour gérer les émotions, le stress ou les douleurs physiques. Voici quelques raisons de choisir l'EFT :`,
         contentWhy: [{
@@ -82,7 +82,7 @@ export const pageContent = [
             title: `Bienfaits sur la confiance et la performance`,
             content: `En plus de réduire les émotions négatives, l'EFT peut renforcer la confiance en soi et améliorer la performance, que ce soit dans le cadre professionnel, scolaire, ou sportif. En libérant les blocages émotionnels, elle aide à se sentir plus aligné avec ses objectifs.`
         }],
-        imageWhy: `/camille/images/moi.PNG`, 
+        imageWhy: `/images/moi.PNG`, 
         endWhy: `En résumé, l'EFT peut être un bon choix pour ceux qui cherchent à améliorer leur bien-être émotionnel et physique de façon rapide, simple et efficace, tout en intégrant une approche globale et complémentaire.`,
         titleFor: `Ce que vous pouvez attendre d'une séance d'e.f.t avec moi`,
         contentFor: [
@@ -112,7 +112,7 @@ export const pageContent = [
         id: 2,
         titleHeader: "Les Fleurs de Bach",
         contentHeader: `Les fleurs de Bach sont des élixirs floraux qui visent à rétablir l'équilibre émotionnel et à favoriser le bien-être psychique. Développée par le Dr Edward Bach dans les années 1930, cette méthode naturelle aide à surmonter les émotions négatives en rétablissant l'harmonie intérieure.`,
-        imageHeader: "/camille/images/bach1.jpg",
+        imageHeader: "/images/bach1.jpg",
         titleWhy: "Pourquoi choisir les fleurs de Bach ?",
         resumeWhy: `Les fleurs de Bach reposent sur l'idée que nos émotions influencent notre santé globale. Ces remèdes naturels aident à libérer les blocages émotionnels et à améliorer la gestion du stress au quotidien. Chaque fleur est associée à un état émotionnel spécifique, permettant une approche personnalisée pour chaque individu.`,
         contentWhy: [
@@ -152,7 +152,7 @@ export const pageContent = [
                 content: `En rétablissant l'équilibre émotionnel, les fleurs de Bach aident à créer une sensation d'harmonie intérieure, favorisant ainsi un bien-être global et durable.`,
             },
         ],
-        imageWhy: "/camille/images/bach2.png",
+        imageWhy: "/images/bach2.png",
         endWhy: `Les fleurs de Bach représentent une approche holistique du bien-être. En travaillant sur les émotions, elles permettent de créer un état d'harmonie entre le corps et l'esprit. En optant pour ce soutien émotionnel, vous choisissez une méthode naturelle et personnalisée qui vous accompagne vers un équilibre émotionnel durable. De plus, il est important de noter que les fleurs de Bach ne sont en rien incompatibles avec d'autres traitements médicaux, et elles sont également complémentaires aux autres techniques que je pratique.`,
         titleFor: "Ce que vous pouvez attendre d'une consultation sur les fleurs de Bach avec moi",
         contentFor: [
@@ -182,7 +182,7 @@ export const pageContent = [
         id: 3,
         titleHeader: "Massage Holistique",
         contentHeader: `Le massage holistique approche la personne dans sa globalité qui vise à rétablir l'équilibre entre le corps, l'esprit et l'âme. Au cours d'un massage, le touché, le mouvement et l'energie sont utilisés. En combinant plusieurs techniques de massage, il s'adapte aux besoins spécifiques de chaque individu, offrant une expérience de bien-être unique.`,
-        imageHeader: "/camille/images/massage1.jpg",
+        imageHeader: "/images/massage1.jpg",
         titleWhy: "Pourquoi choisir un massage holistique ?",
         resumeWhy: `Le massage holistique repose sur l'idée que le bien-être de l'individu est une harmonie entre le corps et l'esprit. Ce type de massage aide à soulager les tensions physiques et émotionnelles, favorisant ainsi une sensation de paix intérieure. Chaque séance est personnalisée, prenant en compte vos besoins et vos attentes.`,
         contentWhy: [
@@ -222,7 +222,7 @@ export const pageContent = [
             content: `En travaillant sur différents points du corps, ce massage aide à rétablir l'équilibre énergétique, favorisant une sensation de vitalité et de bien-être global.`,
           },
         ],
-        imageWhy: "/camille/images/moi.PNG",
+        imageWhy: "/images/moi.PNG",
         endWhy: `Le massage holistique est bien plus qu'une simple technique de relaxation. C'est une approche globale qui prend en compte votre bien-être physique, émotionnel et spirituel. En choisissant un massage holistique, vous optez pour une méthode douce et efficace qui favorise la restauration de l'équilibre dans votre vie. Que vous souhaitiez vous détendre, retrouver votre énergie ou surmonter des défis personnels, ce massage est un accompagnement précieux sur votre chemin vers le bien-être.`,
         titleFor: "Ce que vous pouvez attendre d'un massage holistique avec moi",
         contentFor: [
@@ -252,7 +252,7 @@ export const pageContent = [
         id: 4,
         titleHeader: "Le Reiki",
         contentHeader: "Le Reiki est une méthode de soin énergétique douce et naturelle, qui vise à rétablir l'équilibre du corps et de l'esprit. Originaire du Japon, le mot Reiki signifie 'énergie vitale universelle' (Rei : universel, Ki : énergie). Cette pratique consiste à canaliser l'énergie universelle à travers les mains pour stimuler les capacités d'auto-guérison du corps.",
-        imageHeader: "/camille/images/reiki1.PNG",
+        imageHeader: "/images/reiki1.PNG",
         titleWhy: "Pourquoi choisir un soin énergétique ?",
         resumeWhy: "Le Reiki repose sur l'idée que, comme tout ce qui est vivant, notre corps est traversé par une énergie vitale. Lorsque cette énergie est déséquilibrée ou bloquée, des malaises, des tensions ou des maladies peuvent apparaître.",
         contentWhy: [
@@ -292,7 +292,7 @@ export const pageContent = [
                 content: "Le Reiki favorise une harmonisation énergétique, vous aidant à vous sentir aligné avec votre corps, votre esprit et votre environnement."
             }
         ],
-        imageWhy: "/camille/images/reiki2.PNG",
+        imageWhy: "/images/reiki2.PNG",
         endWhy: "Le Reiki est bien plus qu'une simple technique de relaxation. C'est un soin énergétique complet qui agit sur les plans physique, émotionnel et spirituel.",
         titleFor: "Ce que vous pouvez attendre d'un soin énergétique avec moi",
         contentFor: [

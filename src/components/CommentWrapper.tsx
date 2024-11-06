@@ -16,7 +16,7 @@ function CommentWrapper() {
 
     useEffect(() => {
         const getComments = async () => {
-            const response = await fetch('/camille/api/comments');
+            const response = await fetch('/api/comments');
             const data = await response.json()
             setComments(data);
         }

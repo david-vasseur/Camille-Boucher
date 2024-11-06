@@ -18,15 +18,15 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Daikoomyo",
   description: "Camille Boucher thérapeute",
-  metadataBase: new URL("http://91.134.90.159/camille/"),
+  metadataBase: new URL("http://www.daikoomyo.fr"),
   openGraph: {
     title: "Daikoomyo",
     description: "Camille Boucher Thérapeute holistique",
-    url: "http://91.134.90.159/camille/",
+    url: "http://www.daikoomyo.fr",
     type: "website",
     images: [
       {
-        url: "http://91.134.90.159/camille/images/fond2.PNG",
+        url: "http://www.daikoomyo.fr/images/fond2.PNG",
       },
     ],
   },

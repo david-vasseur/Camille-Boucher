@@ -9,7 +9,7 @@ export default function Home() {
     <div>
         <header className="relative p-6 flex flex-col gap-4 items-center pt-10">
             
-            <div className="absolute inset-0 bg-[url('/camille/images/fond1.png')] bg-cover blur-[1px] z-0 bg-top"></div>
+            <div className="absolute inset-0 bg-[url('/images/fond1.png')] bg-cover blur-[1px] z-0 bg-top"></div>
             
             <div className="relative z-10">
                 <h1 className="font-parisienne text-center text-[3rem] italic text-primary_color text-shadow-lg">Camille Boucher</h1>
@@ -32,7 +32,7 @@ export default function Home() {
             <div className="relative p-1 rounded-full border-gradient overflow-hidden mt-10">
                 <div className="bg-white p-1 rounded-full">
                     <Image
-                    src="/camille/images/profil.JPG"
+                    src="/images/profil.JPG"
                     alt="Profil Image"
                     className="rounded-full rotate-[25deg]"
                     width={300}

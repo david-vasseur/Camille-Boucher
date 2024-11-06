@@ -9,7 +9,7 @@ function Page() {
         
         <div className="relative rounded-full border-gradient border-2 overflow-hidden mt-10 h-64 w-64 z-5">
           <Image 
-            src="/camille/images/IMG_8243.JPG" 
+            src="/images/IMG_8243.JPG" 
             alt="profil" 
             width={300} 
             height={300} 
@@ -29,7 +29,7 @@ function Page() {
 
       <div className="float-left w-[50vw] ml-8 mr-4 mt-12 mb-0">
         <Image
-          src="/camille/images/meditation.avif"
+          src="/images/meditation.avif"
           alt="meditation"
           width={500}
           height={500}
@@ -44,7 +44,7 @@ function Page() {
 
       <div className="float-right w-[55vw] ml-4 mr-8 mt-12 mb-0">
         <Image
-          src="/camille/images/huiles.jpg"
+          src="/images/huiles.jpg"
           alt="huiles"
           width={500}
           height={500}
@@ -59,7 +59,7 @@ function Page() {
 
       <div className="float-left w-[40vw] ml-8 mr-4 mt-12 mb-0">
         <Image
-          src="/camille/images/IMG_3902.jpg"
+          src="/images/IMG_3902.jpg"
           alt="massage"
           width={500}
           height={500}

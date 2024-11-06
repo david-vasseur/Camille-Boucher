@@ -22,7 +22,7 @@ function CommentCreate() {
 
     const handleAddComment = async (data: IData) => {
         if (data.note !== null && data.note > 0) {
-            const response = await fetch('/camille/api/comments', {
+            const response = await fetch('/api/comments', {
                 method: "POST",
                 headers:{ "Content-Type": "application/json" },
                 body: JSON.stringify(data)
