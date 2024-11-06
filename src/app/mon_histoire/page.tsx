@@ -13,7 +13,7 @@ function Page() {
             alt="profil" 
             width={300} 
             height={300} 
-            className="h-full w-full rounded-full object-cover z-0" 
+            className="relative h-full w-full rounded-full object-cover z-0 image-before" 
           />
         </div>
       </header>
@@ -22,7 +22,9 @@ function Page() {
         <h3 className=" font-parisienne w-[80vw] mx-auto mt-4 text-center mb-2 text-[1.4rem]">&quot; Le véritable bien être réside dans l&apos;équilibre entre le corps, l&apos;esprit et l&apos;ame... &quot;</h3>
         <div className="mt-10">
       <p className="old-standard-tt-regular text-justify p-8 pb-2 mt-4">
-        Mon parcours vers les médecines douces et le soin à la personne a été un chemin riche et évolutif. Après avoir débuté ma carrière dans l&apos;horticulture et le secteur du médico-social, j&apos;ai développé une passion profonde pour le développement personnel et la spiritualité. Il y a 20 ans, j&apos;ai découvert mon don de guérir par les mains, une révélation qui a transformé ma vision du bien-être. Pour approfondir mes compétences, j&apos;ai suivi plusieurs formations.
+      Mon parcours vers les médecines douces et le soin aux autres a été un chemin plein de découvertes. J&apos;ai commencé ma carrière dans l&apos;horticulture, puis dans le médico-social, mais au fil du temps, j&apos;ai développé une vraie passion pour le développement personnel et la spiritualité. Il y a 20 ans, j&apos;ai découvert que j&apos;avais un don pour soigner avec mes mains, une expérience qui a complètement changé ma façon de voir le bien-être. Depuis, j&apos;ai suivi plusieurs formations pour approfondir mes compétences et offrir un accompagnement plus complet.
+
+
       </p>
 
       <div className="float-left w-[50vw] ml-8 mr-4 mt-12 mb-0">
@@ -37,7 +39,7 @@ function Page() {
       </div>
 
       <p className="old-standard-tt-regular text-justify p-8 pb-2 mt-4">
-        En 2020, j&apos;ai entrepris ma formation pour devenir maître REIKI au centre MAUNA à Calvisson (30). Cette expérience a été une véritable transformation pour moi. Pendant plusieurs semaines, j&apos;ai plongé dans l&apos;univers du Reiki, apprenant à canaliser l&apos;énergie universelle et à l&apos;utiliser pour favoriser la guérison et le bien-être. J&apos;ai découvert l&apos;importance de la méditation, des symboles et des mantras, ainsi que des techniques de relaxation et de rééquilibrage énergétique. Les séances pratiques m&apos;ont permis de développer mes compétences et d&apos;aller à ma rencontre et celle des autres. Ce parcours a renforcé ma connexion avec ma propre spiritualité. Devenir maître Reiki, me permet d&apos;accompagner les autres sur leur chemin de guérison avec compassion et respect.
+        En 2020, j&apos;ai entrepris ma formation pour devenir maître REIKI au centre de formation MAUNA à Calvisson (30). Cette expérience a été une véritable transformation pour moi. Pendant plusieurs semaines, j&apos;ai plongé dans l&apos;univers du Reiki, apprenant à canaliser l&apos;énergie universelle et à l&apos;utiliser pour favoriser la guérison et le bien-être. J&apos;ai découvert l&apos;importance de la méditation, des symboles et des mantras, ainsi que des techniques de relaxation et de rééquilibrage énergétique. Les séances pratiques m&apos;ont permis de développer mes compétences et d&apos;aller à ma rencontre et celle des autres. Ce parcours a renforcé ma connexion avec ma propre spiritualité. Devenir maître Reiki, me permet d&apos;accompagner les autres sur leur chemin de guérison avec compassion et respect.
       </p>
 
       <div className="float-right w-[55vw] ml-4 mr-8 mt-12 mb-0">
@@ -67,11 +69,11 @@ function Page() {
       </div>
 
       <p className="old-standard-tt-regular text-justify p-8 pb-2 mt-4">
-        En 2022, j&apos;ai eu l&apos;opportunité de suivre une formation en EFT (Technique de libération émotionnelle) avec Eric Bessone, lui-même thérapeute et sophrologue sur Aix-en-Provence. Cette méthode, qui combine des tapotements sur des points d&apos;acupuncture avec des affirmations verbales, m&apos;a permis d&apos;approfondir ma compréhension des émotions et de leurs impacts sur notre bien-être. Grâce à cette formation, j&apos;ai acquis des outils puissants pour vous aider à libérer vos blocages émotionnels et à retrouver un état d&apos;équilibre intérieur.
+        En 2022, j&apos;ai eu l&apos;opportunité de suivre une formation en EFT (Technique de libération émotionnelle) avec Eric Bessone, au centre de formation en EFT à Aix-en-Provence. Cette méthode, qui combine des tapotements sur des points d&apos;acupuncture avec des affirmations verbales, m&apos;a permis d&apos;approfondir ma compréhension des émotions et de leurs impacts sur notre bien-être. Grâce à cette formation, j&apos;ai acquis des outils puissants pour vous aider à libérer vos blocages émotionnels et à retrouver un état d&apos;équilibre intérieur.
       </p>
 
       <p className="old-standard-tt-regular text-justify p-8 pb-2 mt-4">
-        Sur cette même année, une personne m&apos;a fait découvrir les fleurs de Bach que j&apos;ai testées pour moi personnellement. L&apos;idée grandissante de me former à l&apos;utilisation des essences florales prenait forme. J&apos;ai suivi donc cette formation via le centre Mauna qui aujourd&apos;hui vient compléter mon panel de soins thérapeutiques.
+        Sur cette même année, une personne m&apos;a fait découvrir les fleurs de Bach que j&apos;ai testées pour moi personnellement. L&apos;idée grandissante de me former à l&apos;utilisation des essences florales prenait forme. J&apos;ai suivi donc cette formation via le centre MAUNA qui aujourd&apos;hui vient compléter mon panel de soins thérapeutiques.
       </p>
 
       <p className="old-standard-tt-regular text-justify p-8 pb-2 mt-4">

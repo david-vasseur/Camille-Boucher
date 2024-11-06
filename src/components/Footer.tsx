@@ -22,11 +22,11 @@ function Footer() {
         </div>
         <nav className="flex flex-col gap-3">
             <h4 className="font-parisienne text-2xl text-center">Navigation</h4>
-            <Link  className="ml-5 font-oldStandard" href="/quisuisje.html">Qui suis je?</Link>
-            <Link className="ml-5 font-oldStandard" href="/mesprestations.html">EFT</Link>
-            <Link className="ml-5 font-oldStandard" href="/mesprestations.html">Massage holistique</Link>
-            <Link className="ml-5 font-oldStandard" href="/mesprestations.html">Soin energisant</Link>
-            <Link className="ml-5 font-oldStandard" href="/mesprestations.html">Fleurs de bach</Link>
+            <Link  className="ml-5 font-oldStandard" href="/mon_histoire">Qui suis je?</Link>
+            <Link className="ml-5 font-oldStandard" href="/eft">EFT</Link>
+            <Link className="ml-5 font-oldStandard" href="/soin_energetique">Soin energetique</Link>
+            <Link className="ml-5 font-oldStandard" href="/massage_holistique">Massage holistique</Link>
+            <Link className="ml-5 font-oldStandard" href="/fleurs_de_bach">Fleurs de bach</Link>
         </nav>
         <div className="text-center font-parisienne font-extrabold mt-10">
             <span className="">Made by David Vasseur - 2024</span>

@@ -24,8 +24,8 @@ function Page() {
                 <section>
                     <h2 className="text-[2rem] font-semibold p-4 text-center mt-4">Tarifs</h2>
                     <ul>
-                        <li>Consultation d&apos;une heure : 60€</li>
-                        <li>Forfait de 3 consultations : 160€</li>
+                        <li>Consultation d&apos;une heure (bilan + flacon) : 40 €</li>
+                        <li>Recharge de flacon : 15 € ou offert avec un soin</li>
                     </ul>
                 </section>
                 <section className="mb-10 mt-5">

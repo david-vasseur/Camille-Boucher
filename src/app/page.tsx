@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import Comment from "@/components/Comment";
+import CommentWrapper from "@/components/CommentWrapper";
 import Rotate from "@/components/F_Rotate";
 import Slide from "@/components/F_Slide";
 import Image from "next/image";
@@ -28,22 +28,22 @@ export default function Home() {
             <div className="flex justify-end w-full">
                 <Button to="/mon_histoire" description="En savoir plus" />
             </div>
-            <Rotate>
-                <div className="relative p-1 rounded-full border-gradient overflow-hidden mt-10">
-                    <div className="bg-white p-1 rounded-full">
-                        <Image
-                        src="/camille/images/profil.JPG"
-                        alt="Profil Image"
-                        className="rounded-full rotate-[25deg]"
-                        width={300}
-                        height={300} 
-                        />
-                    </div>
+            
+            <div className="relative p-1 rounded-full border-gradient overflow-hidden mt-10">
+                <div className="bg-white p-1 rounded-full">
+                    <Image
+                    src="/camille/images/profil.JPG"
+                    alt="Profil Image"
+                    className="rounded-full rotate-[25deg]"
+                    width={300}
+                    height={300} 
+                    />
                 </div>
-            </Rotate>
+            </div>
+        
             
             <p className="font-oldStandard text-justify my-4 ">
-                Je vous propose des outils complémentaires pour vous accompagner sur le chemin de la guérison et du mieux-être. Ensemble, nous explorons des pratiques douces et bienveillantes qui nourrissent l&apos;équilibre du corps et de l&apos;esprit, tout en stimulant votre vitalité. Ces soins sont conçus pour enrichir votre parcours vers un bien-être global et durable, en harmonie avec vos besoins.
+                Je vous propose des outils complémentaires pour vous accompagner sur votre chemin. Ensemble, nous explorerons des pratiques douces et bienveillantes qui nourrissent l&apos;équilibre du corps et de l&apos;esprit, tout en stimulant votre vitalité. Ces soins sont conçus pour enrichir votre parcours vers un bien-être global et durable, en harmonie avec vos besoins.
             </p>
             <section className="mt-8">
                 <Slide side="left" className="mx-auto" width="100%">
@@ -56,7 +56,7 @@ export default function Home() {
                     <Button to="/eft" description="Découvrir" />
                 </div>
                 <Slide side="left" className="mx-auto" width="100%">
-                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Soins énergétique</h3>
+                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Soin énergétique</h3>
                 </Slide>
                 <div className="flex flex-col gap-4 items-end">
                     <p className="font-oldStandard text-justify mb-2">
@@ -65,7 +65,7 @@ export default function Home() {
                     <Button to="/soin_energetique" description="Découvrir" />
                 </div>
                 <Slide side="left" className="mx-auto" width="100%">
-                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Massages holistique</h3>
+                    <h3 className="font-parisienne text-center font-bold text-2xl py-4 rounded-full mx-auto mt-5">Massage holistique</h3>
                 </Slide>
                 <div className="flex flex-col gap-4 items-end">
                     <p className="font-oldStandard text-justify mb-2">
@@ -89,32 +89,19 @@ export default function Home() {
                 Pour vivre une vie pleine d&apos;abondance, de joie, d&apos;amour, de paix... nous devons avant tout travailler sur nous et aller dans nos profondeurs pour retrouver la lumière.
                 Les soins que je vous propose peuvent vous aider à travailler sur soi mais c&apos;est aussi avant tout à vous de faire le premier pas.
             </p>
+            <p className="font-oldStandard text-justify mb-2 mt-4 ">Pour offrir un accompagnement encore plus personnalisé et pratique, je propose des consultations à domicile dans un rayon de 30 km autour de Nîmes. Que ce soit pour des séances de Reiki, d&apos;EFT, des massages holistiques ou des conseils en Fleurs de Bach, je me déplace directement chez vous. Tout est pensé pour votre confort : j&apos;apporte le matériel nécessaire, y compris une table de massage professionnelle, des huiles adaptées, ainsi qu&apos;une ambiance apaisante pour que vous puissiez profiter pleinement des bienfaits des séances, dans le cocon de votre propre espace.</p>
             </section>
             <Slide side="left">
                 <h3 className="font-parisienne text-center mt-16 mb-8 text-2xl">Vos témoignages</h3>
             </Slide>
             
             <section className="flex flex-col items-center">
-                <Comment />
-                <Comment />
                 <div className="mt-8">
-                  <Button to="/" description="Voir plus..." />
-                </div>
-                <div className="border-2 border-third rounded-lg p-4 w-3/4 mt-8 flex flex-col gap-2">
-                    <h4 className="mb-4 font-oldStandard text-lg text-center">Ajouter un commentaire</h4>
-                    <input type="text" className="border rounded-md p-2" placeholder="Votre nom" />
-                    <input type="area" className="border rounded-md p-2" placeholder="Votre commentaire" />
-                    <select className="border rounded-md p-2">
-                        <option value="">Note</option>
-                        <option value="">★</option>
-                        <option value="">★★</option>
-                        <option value="">★★★</option>
-                        <option value="">★★★★</option>
-                        <option value="">★★★★★</option>
-                    </select>
-                    <div className="text-center mt-4">
-                        <Button to="/" description="Valider" />
+                    <div className="relative max-h-72 overflow-hidden mb-12">
+                        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-[#FBF2ED] pointer-events-none z-[100]"></div>
+                        <CommentWrapper />
                     </div>
+                  <Button to="/vos_avis" description="Voir plus..." />
                 </div>
             </section>
         </main>

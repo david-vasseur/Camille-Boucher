@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { index } from '../app/data';
 import Link from 'next/link';
 import { TfiViewList } from 'react-icons/tfi';
+import BackButton from './BackButton';
 
 function NavBar() {
     const [windowWidth, setWindowWidth] = useState(0);
@@ -63,6 +64,7 @@ function NavBar() {
     <>
     {burger ? 
         <div className="fixed top-0 w-full z-[999] p-4 backdrop-blur-md">
+            <BackButton />
             <TfiViewList onClick={handleMenuToggle} className=" float-end scale-[2] z-[9999]" />
         </div>
     : null}

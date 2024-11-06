@@ -24,8 +24,7 @@ function Page() {
                 <section>
                     <h2 className="text-[2rem] font-semibold p-4 text-center mt-4">Tarifs</h2>
                     <ul>
-                        <li>Séances de 45 minutes à 1 heure : 60€</li>
-                        <li>Forfait de 3 séances : 160€</li>
+                        <li>Séance d&apos;une heure : 70€</li>
                     </ul>
                 </section>
                 <section className="mb-10 mt-5">

@@ -46,7 +46,7 @@ export const pageContent = [
         contentHeader: `L'EFT (Emotional Freedom Technique), aussi appelée "technique de libération émotionnelle", est une pratique psychocorporelle qui combine des éléments de l'acupression et de la psychologie pour aider à réduire le stress émotionnel, les traumatismes et les douleurs physiques. Le processus consiste à tapoter doucement avec les doigts sur des points spécifiques du corps (semblables aux points d'acupuncture) tout en se concentrant sur une émotion négative, un souvenir ou une douleur. Ainsi nous libérons de la charge émotionnelle en lien avec la problématique.`,
         imageHeader: `/camille/images/Untitled design.PNG`,
         titleWhy: `Pourquoi choisir une séance d'eft ?`,
-        resumeWhy: `Choisir l'EFT (Emotional Freedom Technique) peut offrir plusieurs avantages, en particulier si vous cherchez une approche simple, non invasive et complémentaire pour gérer les émotions, le stress ou les douleurs physiques. Voici quelques raisons de choisir l'EFT :`,
+        resumeWhy: `Choisir l'EFT (Emotional Freedom Technique) peut offrir plusieurs avantages, en particulier si vous cherchez une approche simple, douce et complémentaire pour gérer les émotions, le stress ou les douleurs physiques. Voici quelques raisons de choisir l'EFT :`,
         contentWhy: [{
             id: 1,
             title: `Réduction rapide du stress et de l'anxiété`,
@@ -158,8 +158,8 @@ export const pageContent = [
         contentFor: [
             {
                 id: 1,
-                strong: "Un espace d'écoute empathique :",
-                content: `Vous serez accueilli(e) dans un cadre chaleureux où chaque parole compte. Cet environnement est conçu pour que vous puissiez vous exprimer librement sur vos émotions et vos besoins.`,
+                strong: "Un espace d'écoute empathique chez vous :",
+                content: `Je me déplace à votre domicile pour vous accueillir dans un cadre chaleureux où chaque parole compte. Cet environnement est conçu pour que vous puissiez vous exprimer librement sur vos émotions et vos besoins.`
             },
             {
                 id: 2,
@@ -181,7 +181,7 @@ export const pageContent = [
     {
         id: 3,
         titleHeader: "Massage Holistique",
-        contentHeader: `Le massage holistique est une approche intégrative qui vise à rétablir l'équilibre entre le corps, l'esprit et l'âme. En combinant plusieurs techniques de massage, il s'adapte aux besoins spécifiques de chaque individu, offrant une expérience de bien-être unique.`,
+        contentHeader: `Le massage holistique approche la personne dans sa globalité qui vise à rétablir l'équilibre entre le corps, l'esprit et l'âme. Au cours d'un massage, le touché, le mouvement et l'energie sont utilisés. En combinant plusieurs techniques de massage, il s'adapte aux besoins spécifiques de chaque individu, offrant une expérience de bien-être unique.`,
         imageHeader: "/camille/images/massage1.jpg",
         titleWhy: "Pourquoi choisir un massage holistique ?",
         resumeWhy: `Le massage holistique repose sur l'idée que le bien-être de l'individu est une harmonie entre le corps et l'esprit. Ce type de massage aide à soulager les tensions physiques et émotionnelles, favorisant ainsi une sensation de paix intérieure. Chaque séance est personnalisée, prenant en compte vos besoins et vos attentes.`,
@@ -203,8 +203,8 @@ export const pageContent = [
           },
           {
             id: 4,
-            title: "Support lors des changements de vie",
-            content: `Que vous traversiez des changements personnels ou professionnels, le massage holistique vous offre un soutien précieux. Il aide à clarifier vos pensées et à renforcer votre confiance pour avancer avec sérénité.`,
+            title: "Harmonisation durant les changements",
+            content: `Les transitions dans la vie, qu'elles soient personnelles ou professionnelles, peuvent être source de stress. Grâce au massage holistique, vous pouvez trouver l'équilibre intérieur, clarifier vos pensées et développer la confiance nécessaire pour avancer sereinement vers votre avenir.`,
           },
           {
             id: 5,
@@ -229,7 +229,7 @@ export const pageContent = [
           {
             id: 1,
             strong: "Un environnement apaisant :",
-            content: ` Vous serez accueilli(e) dans un cadre calme et serein, propice à la relaxation et à l'évasion. L'ambiance est conçue pour vous détendre dès votre arrivée.`,
+            content: ` Je me déplace à votre domicile pour vous offrir un cadre calme et serein, propice à la relaxation et à l'évasion. Je prends soin de créer une ambiance qui vous permettra de vous détendre.`,
           },
           {
             id: 2,
@@ -243,8 +243,8 @@ export const pageContent = [
           },
           {
             id: 4,
-            strong: "Des conseils pour prolonger le bien-être :",
-            content: ` Après votre séance, nous discuterons des ressentis et des techniques à intégrer dans votre quotidien pour maintenir les bénéfices du massage sur le long terme.`,
+            strong: "Échanges sur votre expérience :",
+            content: ` Après votre séance, nous prendrons le temps de discuter de vos ressentis et de l'expérience vécue afin d'enrichir votre parcours de bien-être.`,
           },
         ],
     },
@@ -258,7 +258,7 @@ export const pageContent = [
         contentWhy: [
             {
                 id: 1,
-                title: "Approche douce, non-invasive et naturelle",
+                title: "Approche douce, appaisante et naturelle",
                 content: "Le Reiki est une méthode de soin naturelle et non-invasive. Il n'y a pas de manipulation physique ou de médication, et les séances sont totalement adaptées à vos besoins."
             },
             {
