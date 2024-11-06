@@ -20,7 +20,11 @@ const commentRepository = {
   },
 
   async getAllComments() {
-    return await prisma.comment.findMany();
+    return await prisma.comment.findMany({
+      orderBy: {
+        createdAt: 'desc',
+      },
+    });
   },
 };
 
