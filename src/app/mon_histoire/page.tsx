@@ -103,10 +103,10 @@ function Page() {
         <p>06 18 65 95 10</p>
       </div>
       <div className="flex justify-between items-center">
-        <Link href="mailto:camille.b.35@gmail.com">
+        <Link href="mailto:camille.b.35@hotmail.fr">
           <FaAt className='text-[2rem]' />
         </Link>
-        <p>camille.b.35@gmail.com</p>
+        <p>camille.b.35@hotmail.fr</p>
     </div>
       </div>
       </main>
