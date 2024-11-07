@@ -1,3 +1,4 @@
+import DateForm from '@/components/DateForm'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -110,6 +111,7 @@ function Page() {
     </div>
       </div>
       </main>
+      <DateForm />
     </div>
   )
 }

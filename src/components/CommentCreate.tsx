@@ -27,6 +27,11 @@ function CommentCreate() {
                 headers:{ "Content-Type": "application/json" },
                 body: JSON.stringify(data)
             })
+            if (response.ok) {
+                setAuthor('');
+                setMessage('');
+                setNote(null);
+            }
             return response;
         } 
     }
