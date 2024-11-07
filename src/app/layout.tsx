@@ -16,11 +16,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Daikoomyo",
+  title: "Daikoomyo - Camille Boucher thérapeute",
   description: "Camille Boucher thérapeute",
   metadataBase: new URL("http://www.daikoomyo.fr"),
   openGraph: {
-    title: "Daikoomyo",
+    title: "Daikoomyo - Camille Boucher thérapeute",
     description: "Camille Boucher Thérapeute holistique",
     url: "http://www.daikoomyo.fr",
     type: "website",
