@@ -32,7 +32,7 @@ function Page() {
         <ul className="pt-4">
             <li>Avec des prestataires de services tiers pour l&apos;hébergement, l&apos;analyse des données, ou d&apos;autres services essentiels.</li>
             <li>Pour se conformer aux obligations légales ou répondre aux demandes des autorités publiques.</li>
-            <li>Dans le cadre d'une fusion ou acquisition de l'entreprise.</li>
+            <li>Dans le cadre d&apos;une fusion ou acquisition de l&apos;entreprise.</li>
         </ul>
 
         <h2 className="text-[1.5rem] mt-6">4. Conservation des données</h2>
@@ -42,7 +42,7 @@ function Page() {
 
         <h2 className="text-[1.5rem] mt-6">5. Sécurité des données</h2>
         <p className="pt-4 text-justify">
-            Nous mettons en œuvre des mesures de sécurité pour protéger vos données. Cependant, aucune méthode de transmission de données sur Internet ou de stockage électronique n'est totalement sécurisée.
+            Nous mettons en œuvre des mesures de sécurité pour protéger vos données. Cependant, aucune méthode de transmission de données sur Internet ou de stockage électronique n&apos;est totalement sécurisée.
         </p>
 
         <h2 className="text-[1.5rem] mt-6">6. Cookies</h2>

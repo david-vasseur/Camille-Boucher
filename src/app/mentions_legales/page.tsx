@@ -23,7 +23,7 @@ function Page() {
         </p>
         <h2 className="text-[1.5rem] mt-6">3. Description des services fournis</h2>
         <p className="pt-4 text-justify">
-            Le site Daikoomyo a pour objet de fournir une information concernant l&apos;ensemble des activités de l'entreprise.
+            Le site Daikoomyo a pour objet de fournir une information concernant l&apos;ensemble des activités de l&apos;entreprise.
 
             Daikoomyo s&apos;efforce de fournir sur le site des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu&apos;elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
         </p>
@@ -43,13 +43,13 @@ function Page() {
         </p>
         <h2 className="text-[1.5rem] mt-6">6. Gestion des données personnelles</h2>
         <p className="pt-4 text-justify">
-            En France, les données personnelles sont protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l'article L.226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.
+            En France, les données personnelles sont protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l&apos;article L.226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.
 
-            À l'occasion de l'utilisation du site Daikoomyo, peuvent être recueillies : l'URL des liens par l'intermédiaire desquels l'utilisateur a accédé au site www.daikoomyo.fr, le fournisseur d'accès de l'utilisateur, l'adresse de protocole Internet (IP) de l'utilisateur.
+            À l&apos;occasion de l&apos;utilisation du site Daikoomyo, peuvent être recueillies : l&apos;URL des liens par l&apos;intermédiaire desquels l&apos;utilisateur a accédé au site www.daikoomyo.fr, le fournisseur d&apos;accès de l&apos;utilisateur, l&apos;adresse de protocole Internet (IP) de l&apos;utilisateur.
 
-            En tout état de cause, Daikoomyo ne collecte des informations personnelles relatives à l'utilisateur que pour le besoin de certains services proposés par le site www.daikoomyo.fr. L'utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu'il procède par lui-même à leur saisie. Il est alors précisé à l'utilisateur du site www.daikoomyo.fr l&apos;obligation ou non de fournir ces informations.
+            En tout état de cause, Daikoomyo ne collecte des informations personnelles relatives à l&apos;utilisateur que pour le besoin de certains services proposés par le site www.daikoomyo.fr. L&apos;utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu&apos;il procède par lui-même à leur saisie. Il est alors précisé à l&apos;utilisateur du site www.daikoomyo.fr l&apos;obligation ou non de fournir ces informations.
 
-            Aucune information personnelle de l'utilisateur du site www.daikoomyo.fr n'est publiée à l'insu de l'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers.
+            Aucune information personnelle de l&apos;utilisateur du site www.daikoomyo.fr n&apos;est publiée à l&apos;insu de l&apos;utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers.
         </p>
         <h2 className="text-[1.5rem] mt-6">7. Liens hypertextes et cookies</h2>
         <p className="pt-4 text-justify">
@@ -63,13 +63,13 @@ function Page() {
         </p>
         <h2 className="text-[1.5rem] mt-6">9. Les principales lois concernées</h2>
         <p className="pt-4 text-justify">
-            Loi n° 78-17 du 6 janvier 1978, notamment modifiée par la loi n° 2004-801 du 6 août 2004 relative à l'informatique, aux fichiers et aux libertés.
-            Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.
+            Loi n° 78-17 du 6 janvier 1978, notamment modifiée par la loi n° 2004-801 du 6 août 2004 relative à l&apos;informatique, aux fichiers et aux libertés.
+            Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l&apos;économie numérique.
         </p>
         <h2 className="text-[1.5rem] mt-6">10. Lexique</h2>
         <p className="pt-4 text-justify">
             Utilisateur : Internaute se connectant, utilisant le site susnommé.
-            Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).
+            Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l&apos;identification des personnes physiques auxquelles elles s&apos;appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).
         </p>
     </div>
   )
