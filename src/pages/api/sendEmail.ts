@@ -28,6 +28,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         Message: ${message}
         Disponibilités: ${disponibilités}
       `,
+      html: `<h1>Nom: ${nom}</h1><p>Prénom: ${prénom}</p><p>Message: ${message}</p>`,
     };
 
     try {
