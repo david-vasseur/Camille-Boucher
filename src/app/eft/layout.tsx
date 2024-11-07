@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       type: "website",
       images: [
         {
-          url: "http://www.daikoomyo.fr/images/fond2.PNG",
+          url: "http://www.daikoomyo.fr/images/Untitled%20design.PNG",
         },
       ],
     },
