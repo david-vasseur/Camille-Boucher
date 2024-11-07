@@ -82,7 +82,7 @@ function Page() {
         Aujourd&apos;hui, je vous propose des soins personnalisés pour retrouver un rééquilibrage énergétique, physique et émotionnel. Je me déplace à votre domicile pour vous offrir un cadre confortable et sécurisant, tout en offrant également des séances à distance pour le soin énergétique et l&apos;EFT. Cela me permet de m&apos;adapter aux besoins de chacun et de rendre mes services accessibles à un plus large public, où qu&apos;ils soient. Mon objectif est de créer un espace de bien-être et d&apos;accompagnement, que ce soit physiquement ou virtuellement.
       </p>
     </div>
-    <h3 className="text-[2rem] font-parisienne px-8 text-center mt-10">Pour me contacter</h3>
+    <h3 className="text-[2rem] font-parisienne px-8 text-center mt-10" id="contact">Pour me contacter</h3>
     <div className='flex flex-col gap-5 px-8 mt-10'>
       <div className="flex justify-between">
         <Link href="https://www.instagram.com/camille_daikoomyo_therapeute/" target="_blank">

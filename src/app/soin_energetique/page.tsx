@@ -20,7 +20,7 @@ function Page() {
                 <h2 className="text-[2rem] font-semibold p-4 text-center">Prêt(e) à libérer vos émotions et retrouver votre bien-être ?</h2>
                 <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez sérénité et équilibre dans votre quotidien.</p>
             </section>
-            <Button to="/" description="Contactez-moi..." />
+            <Button to="/mon_histoire#contact" description="Contactez-moi..." />
             <section>
                 <h2 className="text-[2rem] font-semibold p-4 text-center mt-4">Tarifs</h2>
                 <ul>

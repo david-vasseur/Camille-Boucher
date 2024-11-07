@@ -8,8 +8,8 @@ function Footer() {
         <span className='w-full h-[0.1rem] bg-slate-600'></span>
         <div className="flex justify-between">
           <div className="flex flex-col gap-2">
-            <Link href="/" className=" font-oldStandard">Politique de confidentialité</Link>
-            <Link href="/" className=" font-oldStandard">Mentions légales</Link>
+            <Link href="/politique_de_confidentialite" className=" font-oldStandard">Politique de confidentialité</Link>
+            <Link href="/mentions_legales" className=" font-oldStandard">Mentions légales</Link>
           </div>
           <div className="flex flex-col gap-4 mr-4">
             <Link href={"https://www.facebook.com/camille.daikoomyo.therapeute"}>
