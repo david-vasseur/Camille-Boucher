@@ -17,7 +17,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const mailOptions = {
       from: process.env.EMAIL_USER, 
-      to: 'p5y4@laposte.net', 
+      to: 'david.vasseur@oclock.school', 
       subject: 'Nouvelle demande de rendez vous',
       text: `
         Voici les détails du formulaire :
