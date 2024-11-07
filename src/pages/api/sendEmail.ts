@@ -6,7 +6,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const { nom, prénom, téléphone, email, soin, message, disponibilités } = req.body;
 
     const transporter = nodemailer.createTransport({
-      service: process.env.EMAIL_SERVICE, 
+      host: 'smtp.gmail.com',
+      port: 465,
+      secure: true, 
       auth: {
         user: process.env.EMAIL_USER, 
         pass: process.env.EMAIL_PASSWORD, 
@@ -28,7 +30,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         Message: ${message}
         Disponibilités: ${disponibilités}
       `,
-      html: `<h1>Nom: ${nom}</h1><p>Prénom: ${prénom}</p><p>Message: ${message}</p>`,
+      html: `<h1 style="color: red">Nom: ${nom}</h1><p>Prénom: ${prénom}</p><p>Message: ${message}</p>`,
     };
 
     try {
