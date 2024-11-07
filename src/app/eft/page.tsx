@@ -4,11 +4,31 @@ import { pageContent } from '../data';
 import Page_Why from '@/components/Page_Why';
 import Page_For from '@/components/Page_For';
 import Page_Header from '@/components/Page_Header';
+import { NextSeo } from 'next-seo';
 
 function Page() {
 
   return (
     <div className="px-6 pt-20">
+        <NextSeo
+           title="E.F.T"
+           description="Tentez l'eft."
+           canonical="http://www.daikoomyo.fr/eft"
+           openGraph={{
+             url: 'http://www.daikoomyo.fr/eft',
+             title: "Decouvrez l'eft",
+             description: "Tentez l'eft",
+             images: [
+               {
+                 url: 'http://www.daikoomyo.fr/images/Untitled%20design.PNG',
+                 width: 800,
+                 height: 600,
+                 alt: 'Une image qui présente le touché eft',
+               },
+             ],
+             site_name: 'Daikoomyo',
+           }}
+        />
         <Page_Header data={pageContent[0]} /> 
         <main className="flex flex-col justify-center items-center mb-24">
             <section>
