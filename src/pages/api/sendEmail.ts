@@ -30,7 +30,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         Message: ${message}
         Disponibilités: ${disponibilités}
       `,
-      html: `<h1 style="color: red">Nom: ${nom}</h1><p>Prénom: ${prénom}</p><p>Message: ${message}</p>`,
+      html: `<h1 style="color: pink">Nouvelle demande de rendez-vous</h1>
+                <h2>${prénom} ${nom} a fait une demande de rendez-vous pour un soin ${soin}</h2>
+                <h3>Vous pouvez la joindre via:</h3>
+                <ul>
+                    <li>téléphone: ${téléphone}</li>
+                    <li>email: ${email}</li>
+                </ul>
+                <h2>Message:</h2>
+                <p>${message}</p>
+                <h2>Ses disponibilités:</h2>
+                <p>${disponibilités}</p>
+                `,
     };
 
     try {
