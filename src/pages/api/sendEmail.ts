@@ -16,9 +16,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_USER, 
-      to: 'david.vasseur@oclock.school', 
-      subject: 'Nouvelle demande de rendez vous',
+      from: `"www.daikoomyo.fr" <${process.env.EMAIL_USER}>`, 
+      to: 'camille.b.35@hotmail.fr', 
+      subject: 'Daikoomyo - Nouvelle demande de rendez vous',
       text: `
         Voici les détails du formulaire :
 
