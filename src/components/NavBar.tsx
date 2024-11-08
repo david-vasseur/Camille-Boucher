@@ -35,7 +35,7 @@ function NavBar() {
             };
         }
          
-    }, [windowWidth]);
+    }, [windowWidth, burger]);
 
     useEffect(() => {
         if (burger && menu) {
