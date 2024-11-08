@@ -54,7 +54,7 @@ function NavBar() {
             }}
             transition={{ duration: 0.3 }}
           >
-            <div className="h-[80vh] items-center justify-center lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
+            <div className="h-[80vh] items-center justify-start lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
               <Link href="/" onClick={() => setNavbar(false)}>
                 Accueil
               </Link>
