@@ -111,7 +111,6 @@ function Page() {
     </div>
       </div>
       </main>
-      <DateForm />
     </div>
   )
 }
