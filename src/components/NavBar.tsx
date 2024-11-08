@@ -1,84 +1,89 @@
-"use client"
-import React, { useEffect, useState } from 'react'
-import { index } from '../app/data';
-import Link from 'next/link';
-import { TfiViewList } from 'react-icons/tfi';
-import BackButton from './BackButton';
+"use client";
+import React, { useState } from "react";
+import { index } from "../app/data";
+import Link from "next/link";
+import { TfiViewList } from "react-icons/tfi";
+import BackButton from "./BackButton";
+import { FaXmark } from "react-icons/fa6";
+import { motion } from "framer-motion"; 
 
 function NavBar() {
-    const [windowWidth, setWindowWidth] = useState(0);
-    const [menu, setMenu] = useState(true);
-    const [burger, setBurger] = useState(false);
-    const [animatedMenu, setAnimatedMenu] = useState(false);
-
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            const handleResize = () => {
-                setWindowWidth(window.innerWidth);
-            };
-    
-            window.addEventListener('resize', handleResize);
-    
-            if (window.innerWidth < 639) {
-                if (burger) {
-                    return;
-                } else {
-                    setBurger(true);
-                    setMenu(false)
-                }
-            } else {
-                setBurger(false);
-                setMenu(true);
-            }
-            return () => {
-                window.removeEventListener('resize', handleResize);
-            };
-        }
-         
-    }, [windowWidth, burger]);
-
-    useEffect(() => {
-        if (burger && menu) {
-            setAnimatedMenu(true);
-        } else {
-            setAnimatedMenu(false);
-        }
-    }, [menu, burger]);
-
-    const handleMenuToggle = () => {
-        if (menu) {
-            
-            setAnimatedMenu(false); 
-            setTimeout(() => {
-                setMenu(false); 
-            }, 500); 
-        } else {
-            setMenu(true); 
-            setTimeout(() => {
-                setAnimatedMenu(true); 
-            }, 10); 
-        }
-    };
+  const [navbar, setNavbar] = useState(false);
 
   return (
-    <>
-    {burger ? 
-        <div className="fixed top-0 w-full z-[999] p-4 backdrop-blur-md">
+    <div>
+      <nav className="w-full bg-transparent backdrop-blur-2xl fixed top-0 left-0 right-0 z-20 shadow-xl">
+        <div className="md:flex justify-between px-4 md:items-center md:px-8">
+          <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <BackButton />
-            <TfiViewList onClick={handleMenuToggle} className=" float-end scale-[2] z-[9999]" />
-        </div>
-    : null}
-    {menu && 
-        <div className={`${animatedMenu ? "scale-[1] opacity-1" : "scale-0 opacity-0" } pt-20 font-oldStandard transition-all duration-500 origin-top-left transform flex sm:flex-row flex-col sm:gap-3 gap-8 font-semibold items-center sm:backdrop-blur-none backdrop-blur-lg sm:bg-transparent bg-transparent sm:w-auto w-[100vw] sm:h-[90vh] h-[60vh] sm:static fixed sm:rounded-none rounded-r-lg text-xl tracking-wider text-third_color p-5 justify-center sm:shadow-none shadow-2xl z-20 text-shadow-lg`}>
-            <Link href="/" onClick={handleMenuToggle}>Accueil</Link>
-            <Link href="/mon_histoire" onClick={handleMenuToggle}>Qui suis je ?</Link>
-            {index.map( elem  => (
-                <Link key={elem.id} href={elem.buttonTo} className="" onClick={handleMenuToggle}>{elem.title}</Link>
+            <div className="md:hidden">
+              {navbar ? (
+                <FaXmark
+                  className="scale-[2] cursor-pointer"
+                  onClick={() => setNavbar(!navbar)}
+                />
+              ) : (
+                <TfiViewList
+                  className="scale-[2] cursor-pointer"
+                  onClick={() => setNavbar(!navbar)}
+                />
+              )}
+            </div>
+          </div>
+          <motion.div
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              navbar ? "p-12 md:p-0 block" : "hidden"
+            }`}
+            initial={{ x: "-100%", opacity: 0 }} 
+            animate={{
+              x: navbar ? 0 : "-100%", 
+              opacity: navbar ? 1 : 0, 
+            }}
+            transition={{ duration: 0.3 }} 
+            className="md:hidden"
+          >
+            {navbar && (
+              <motion.div
+                className="backdrop-blur-md h-[100vh] items-center justify-center md:justify-end flex gap-5 md:gap-8 flex-col md:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg"
+                initial={{ opacity: 0 }} 
+                animate={{ opacity: navbar ? 1 : 0 }} 
+                transition={{ duration: 0.3 }}
+              >
+                <Link href="/" onClick={() => setNavbar(!navbar)}>
+                  Accueil
+                </Link>
+                <Link href="/mon_histoire" onClick={() => setNavbar(!navbar)}>
+                  Qui suis-je ?
+                </Link>
+                {index.map((elem) => (
+                  <Link
+                    key={elem.id}
+                    href={elem.buttonTo}
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    {elem.title}
+                  </Link>
+                ))}
+              </motion.div>
+            )}
+          </motion.div>
+          <div className="hidden md:flex flex-1 justify-center items-center gap-8 font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
+            <Link href="/" onClick={() => setNavbar(false)}>
+              Accueil
+            </Link>
+            <Link href="/mon_histoire" onClick={() => setNavbar(false)}>
+              Qui suis-je ?
+            </Link>
+            {index.map((elem) => (
+              <Link key={elem.id} href={elem.buttonTo} onClick={() => setNavbar(false)}>
+                {elem.title}
+              </Link>
             ))}
+          </div>
         </div>
-    }
-    </>
-  )
+      </nav>
+    </div>
+  );
 }
 
-export default NavBar
+export default NavBar;

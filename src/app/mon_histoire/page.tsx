@@ -5,7 +5,7 @@ import { FaAt, FaFacebook, FaInstagram, FaPhone } from 'react-icons/fa6'
 
 function Page() {
   return (
-    <div className="mt-10">
+    <div className="mt-20">
       <header className="p-2 flex flex-col gap-1 items-center">
         <h1 className="font-parisienne text-center text-[2.8rem] font-bold">Qui suis-je ?</h1>
         

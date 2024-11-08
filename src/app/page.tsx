@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-        <header className="relative p-6 flex flex-col gap-4 items-center pt-10">
+        <header className="relative p-6 flex flex-col gap-4 items-center pt-20 md:pt-28">
             
             <div className="absolute inset-0 bg-[url('/images/fond1.png')] bg-cover blur-[1px] z-0 bg-top"></div>
             

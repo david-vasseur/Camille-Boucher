@@ -19,7 +19,7 @@ const BackButton = () => {
   return (
     <button
       onClick={handleClick}
-      className={`font-oldStandard underline text-[1.1rem] absolute px-4 py-2 rounded-lg transition duration-200 z-[999999] top-2 left-0 ${canGoBack ? "opacity-100" : "opacity-0"}`}
+      className={`font-oldStandard underline text-[1.1rem] py-2 rounded-lg transition duration-200 z-[999999] top-2 left-0 ${canGoBack ? "opacity-100" : "opacity-0"}`}
       style={{ pointerEvents: canGoBack ? 'auto' : 'none' }} 
     >
       Retour

@@ -67,7 +67,7 @@ function DateForm() {
     
     {isVisible && (
         <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
-            <div className="relative w-[90vw] max-h-[80vh] bg-secondary_color rounded-lg border-2 border-slate-800 p-8 pt-12 overflow-y-auto">
+            <div className="relative sm:w-[40vw] w-[90vw] max-h-[80vh] sm:max-h-[90vh] bg-secondary_color sm:rounded-2xl rounded-lg border-2 border-slate-800 p-8 pt-12 overflow-y-auto shadow-lg">
                 <FaXmark
                     className="absolute right-4 top-4 text-[1.5rem] cursor-pointer z-10"
                     onClick={() => setIsVisible(!isVisible)}
