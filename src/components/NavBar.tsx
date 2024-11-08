@@ -44,8 +44,8 @@ function NavBar() {
             ))}
           </div>
           <motion.div
-            className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
-              navbar ? "p-12 lg:p-0 block" : "hidden"
+            className={`flex-1 justify-self-center pb-3 lg:block lg:pb-0 lg:mt-0 ${
+              navbar ? "p-6 lg:p-0 block" : "hidden"
             } lg:hidden`} 
             initial={{ x: "-100%", opacity: 0 }}
             animate={{
@@ -54,7 +54,7 @@ function NavBar() {
             }}
             transition={{ duration: 0.3 }}
           >
-            <div className="h-[80vh] items-center justify-start lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
+            <div className="h-[100vh] items-center justify-start lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
               <Link href="/" onClick={() => setNavbar(false)}>
                 Accueil
               </Link>
