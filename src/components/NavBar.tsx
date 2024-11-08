@@ -13,10 +13,10 @@ function NavBar() {
   return (
     <div>
       <nav className="w-full bg-transparent backdrop-blur-2xl fixed top-0 left-0 right-0 z-20">
-        <div className="md:flex justify-between px-4 md:items-center md:px-8">
-          <div className="flex items-center justify-between py-3 md:py-5 md:block z-30">
+        <div className="lg:flex justify-between px-4 lg:items-center lg:px-8">
+          <div className="flex items-center justify-between py-3 lg:py-5 lg:block z-30">
             <BackButton />
-            <div className="md:hidden">
+            <div className="lg:hidden">
               {navbar ? (
                 <FaXmark
                   className="scale-[2] cursor-pointer"
@@ -30,7 +30,7 @@ function NavBar() {
               )}
             </div>
           </div>
-          <div className="hidden md:flex md:gap-8 font-oldStandard text-[1.4rem] font-semibold text-shadow-lg items-center justify-end">
+          <div className="hidden lg:flex lg:gap-8 font-oldStandard text-[1.4rem] font-semibold text-shadow-lg items-center justify-end">
             <Link href="/" onClick={() => setNavbar(false)}>
               Accueil
             </Link>
@@ -44,9 +44,9 @@ function NavBar() {
             ))}
           </div>
           <motion.div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "p-12 md:p-0 block" : "hidden"
-            } md:hidden`} 
+            className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
+              navbar ? "p-12 lg:p-0 block" : "hidden"
+            } lg:hidden`} 
             initial={{ x: "-100%", opacity: 0 }}
             animate={{
               x: navbar ? 0 : "-100%",
@@ -54,7 +54,7 @@ function NavBar() {
             }}
             transition={{ duration: 0.3 }}
           >
-            <div className="backdrop-blur-md h-[80vh] items-center justify-center md:justify-end flex gap-5 md:gap-8 flex-col md:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
+            <div className="h-[80vh] items-center justify-center lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
               <Link href="/" onClick={() => setNavbar(false)}>
                 Accueil
               </Link>
