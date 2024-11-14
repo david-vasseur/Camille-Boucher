@@ -27,7 +27,7 @@ function Comment({ comment }:{ comment: IComment }) {
         );
     }
     return (
-    <div className="rounded-lg border-2 border-slate-700 w-[80vw] flex flex-col gap-4 p-2 mb-6">
+    <div className="rounded-lg border-2 border-slate-700 w-[80vw] flex flex-col gap-4 p-2 mb-6 md:w-[30vw] shadow-lg">
         <div className="flex justify-between">
             <span className="font-oldStandard font-semibold text-md">De {comment.author}</span>
             <div className="flex gap-1">

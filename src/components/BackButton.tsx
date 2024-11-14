@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { GrFormPrevious } from 'react-icons/gr';
 
 const BackButton = () => {
   const router = useRouter(); 
@@ -19,9 +20,10 @@ const BackButton = () => {
   return (
     <button
       onClick={handleClick}
-      className={`font-oldStandard underline text-[1.1rem] py-2 rounded-lg transition duration-200 z-[999999] top-2 left-0 ${canGoBack ? "opacity-100" : "opacity-0"}`}
+      className={`font-sans flex gap-1 items-center underline text-[1.1rem] py-2 rounded-lg transition duration-200 z-[999999] top-2 left-0 ${canGoBack ? "opacity-100" : "opacity-0"}`}
       style={{ pointerEvents: canGoBack ? 'auto' : 'none' }} 
     >
+      <GrFormPrevious />
       Retour
     </button>
   );

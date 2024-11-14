@@ -50,37 +50,44 @@ export const pageContent = [
         contentWhy: [{
             id: 1,
             title: `Réduction rapide du stress et de l'anxiété`,
-            content: `L'EFT est réputée pour sa capacité à calmer rapidement le système nerveux. En tapotant sur des points d'acupression tout en se concentrant sur une émotion négative, on peut diminuer le niveau de stress ressenti en quelques minutes.`
+            content: `L'EFT est réputée pour sa capacité à calmer rapidement le système nerveux. En tapotant sur des points d'acupression tout en se concentrant sur une émotion négative, on peut diminuer le niveau de stress ressenti en quelques minutes.`,
+            image: "/images/lac.jpg"
         }, 
         {
             id: 2,
             title: `Accessible à tous et facile à pratiquer`,
-            content: `L'un des grands atouts de l'EFT est qu'elle est facile à apprendre et à appliquer. Elle ne nécessite aucun matériel, peut être pratiquée seul ou avec un praticien, et peut être utilisée n'importe où, ce qui la rend accessible à tous.`
+            content: `L'un des grands atouts de l'EFT est qu'elle est facile à apprendre et à appliquer. Elle ne nécessite aucun matériel, peut être pratiquée seul ou avec un praticien, et peut être utilisée n'importe où, ce qui la rend accessible à tous.`,
+            image: "/images/galets.jpg"
         }, 
         {
             id: 3,
             title: `Approche holistique`,
-            content: `L'EFT traite à la fois le corps et l'esprit. En combinant la stimulation des points énergétiques du corps (semblables à l'acupuncture) avec des techniques psychologiques, elle agit de manière globale sur les émotions, les pensées et les tensions physiques.`
+            content: `L'EFT traite à la fois le corps et l'esprit. En combinant la stimulation des points énergétiques du corps (semblables à l'acupuncture) avec des techniques psychologiques, elle agit de manière globale sur les émotions, les pensées et les tensions physiques.`,
+            image: "/images/arbres.jpg"
         }, 
         {
             id: 4,
             title: `Soulagement émotionnel`,
-            content: `Pour ceux qui souffrent de traumatismes, de phobies, d'anxiété, ou de blocages émotionnels, l'EFT peut être une méthode efficace pour libérer des émotions refoulées ou douloureuses. Elle aide à se libérer des souvenirs ou émotions négatives qui perturbent la vie quotidienne.`
+            content: `Pour ceux qui souffrent de traumatismes, de phobies, d'anxiété, ou de blocages émotionnels, l'EFT peut être une méthode efficace pour libérer des émotions refoulées ou douloureuses. Elle aide à se libérer des souvenirs ou émotions négatives qui perturbent la vie quotidienne.`,
+            image: "/images/plage.jpg"
         }, 
         {
             id: 5,
             title: `Gestion des douleurs physiques`,
-            content: `De nombreuses personnes utilisent l'EFT pour réduire ou soulager des douleurs physiques, qu'elles soient chroniques ou liées à des tensions émotionnelles. Cette technique peut complémenter d'autres formes de traitement de la douleur.`
+            content: `De nombreuses personnes utilisent l'EFT pour réduire ou soulager des douleurs physiques, qu'elles soient chroniques ou liées à des tensions émotionnelles. Cette technique peut complémenter d'autres formes de traitement de la douleur.`,
+            image: "/images/foret.jpg"
         }, 
         {
             id: 6,
             title: `Approche complémentaire`,
-            content: `L'EFT peut être utilisée en complément d'autres approches thérapeutiques, qu'il s'agisse de thérapies cognitives, de la méditation, de la psychologie classique, ou même de traitements médicaux. Elle peut enrichir les pratiques déjà en place pour mieux gérer le stress ou la douleur.`
+            content: `L'EFT peut être utilisée en complément d'autres approches thérapeutiques, qu'il s'agisse de thérapies cognitives, de la méditation, de la psychologie classique, ou même de traitements médicaux. Elle peut enrichir les pratiques déjà en place pour mieux gérer le stress ou la douleur.`,
+            image: "/images/goutte.jpg"
         }, 
         {
             id: 7,
             title: `Bienfaits sur la confiance et la performance`,
-            content: `En plus de réduire les émotions négatives, l'EFT peut renforcer la confiance en soi et améliorer la performance, que ce soit dans le cadre professionnel, scolaire, ou sportif. En libérant les blocages émotionnels, elle aide à se sentir plus aligné avec ses objectifs.`
+            content: `En plus de réduire les émotions négatives, l'EFT peut renforcer la confiance en soi et améliorer la performance, que ce soit dans le cadre professionnel, scolaire, ou sportif. En libérant les blocages émotionnels, elle aide à se sentir plus aligné avec ses objectifs.`,
+            image: "/images/fleurs.jpg"
         }],
         imageWhy: `/images/moi.PNG`, 
         endWhy: `En résumé, l'EFT peut être un bon choix pour ceux qui cherchent à améliorer leur bien-être émotionnel et physique de façon rapide, simple et efficace, tout en intégrant une approche globale et complémentaire.`,
@@ -120,36 +127,43 @@ export const pageContent = [
                 id: 1,
                 title: "Un soutien émotionnel sur mesure",
                 content: `Les fleurs de Bach sont faciles à intégrer dans votre quotidien. Chaque élixir est choisi pour répondre à vos émotions spécifiques, ce qui offre une approche centrée sur vous.`,
+                image: "/images/lac.jpg"
             },
             {
                 id: 2,
                 title: "Rétablir la sérénité intérieure",
                 content: `Cette méthode douce permet de calmer les émotions tumultueuses. En utilisant les fleurs appropriées, vous pouvez retrouver une paix intérieure et réduire les réactions émotionnelles excessives.`,
+                image: "/images/galets.jpg"
             },
             {
                 id: 3,
                 title: "Harmoniser vos émotions",
                 content: `Les fleurs de Bach aident à équilibrer les émotions contradictoires. En ciblant des états comme la peur, la tristesse ou l'anxiété, elles favorisent une gestion plus sereine des émotions.`,
+                image: "/images/arbres.jpg"
             },
             {
                 id: 4,
                 title: "Accompagnement durant les transitions",
                 content: `Lors de périodes de changement ou de stress, les fleurs de Bach offrent un soutien précieux. Elles vous aident à renforcer votre résilience émotionnelle et à mieux gérer les défis de la vie.`,
+                image: "/images/plage.jpg"
             },
             {
                 id: 5,
                 title: "Renforcer la confiance en soi",
                 content: `Certaines fleurs favorisent la confiance et l'estime de soi. Elles aident à surmonter les doutes et à développer une attitude positive face à soi-même et aux autres.`,
+                image: "/images/foret.jpg"
             },
             {
                 id: 6,
                 title: "Diminuer l'anxiété et le stress",
                 content: `Les fleurs de Bach sont particulièrement efficaces pour apaiser l'anxiété. Elles aident à retrouver un état de calme et à mieux gérer les situations stressantes.`,
+                image: "/images/goutte.jpg"
             },
             {
                 id: 7,
                 title: "Favoriser l'harmonie personnelle",
                 content: `En rétablissant l'équilibre émotionnel, les fleurs de Bach aident à créer une sensation d'harmonie intérieure, favorisant ainsi un bien-être global et durable.`,
+                image: "/images/fleurs.jpg"
             },
         ],
         imageWhy: "/images/bach2.png",
@@ -190,36 +204,43 @@ export const pageContent = [
             id: 1,
             title: "Une approche individualisée et respectueuse",
             content: `Le massage holistique est conçu pour s'adapter à vos besoins spécifiques. Aucune manipulation douloureuse n'est pratiquée, et chaque séance vise à améliorer votre bien-être global en intégrant des techniques variées.`,
+            image: "/images/lac.jpg"
           },
           {
             id: 2,
             title: "Diminuer le stress au quotidien",
             content: `Ce massage permet de calmer le mental et de réduire les tensions physiques et émotionnelles. En rétablissant l'équilibre, il vous aide à retrouver un état de relaxation profonde et de sérénité.`,
+            image: "/images/galets.jpg"
           },
           {
             id: 3,
             title: "Émotionnellement apaisant",
             content: `En agissant sur les points de tension, le massage holistique favorise la libération des émotions refoulées. Il est efficace pour apaiser les peurs et l'anxiété, contribuant à un équilibre émotionnel durable.`,
+            image: "/images/arbres.jpg"
           },
           {
             id: 4,
             title: "Harmonisation durant les changements",
             content: `Les transitions dans la vie, qu'elles soient personnelles ou professionnelles, peuvent être source de stress. Grâce au massage holistique, vous pouvez trouver l'équilibre intérieur, clarifier vos pensées et développer la confiance nécessaire pour avancer sereinement vers votre avenir.`,
+            image: "/images/plage.jpg"
           },
           {
             id: 5,
             title: "Éveiller votre sensibilité corporelle",
             content: `En intégrant des techniques de relaxation et de respiration, le massage holistique favorise une meilleure connexion entre votre corps et votre esprit, vous aidant à vous sentir plus aligné(e) et conscient(e) de vous-même.`,
+            image: "/images/foret.jpg"
           },
           {
             id: 6,
             title: "Soulagement des douleurs physiques",
             content: `Le massage holistique n'agit pas uniquement sur le bien-être mental. Il soulage également les douleurs physiques, qu'il s'agisse de tensions musculaires ou de douleurs chroniques, en favorisant la circulation et la relaxation musculaire.`,
+            image: "/images/goutte.jpg"
           },
           {
             id: 7,
             title: "Rétablir l'équilibre énergétique",
             content: `En travaillant sur différents points du corps, ce massage aide à rétablir l'équilibre énergétique, favorisant une sensation de vitalité et de bien-être global.`,
+            image: "/images/fleurs.jpg"
           },
         ],
         imageWhy: "/images/moi.PNG",
@@ -259,37 +280,44 @@ export const pageContent = [
             {
                 id: 1,
                 title: "Approche douce, appaisante et naturelle",
-                content: "Le Reiki est une méthode de soin naturelle et non-invasive. Il n'y a pas de manipulation physique ou de médication, et les séances sont totalement adaptées à vos besoins."
+                content: "Le Reiki est une méthode de soin naturelle et non-invasive. Il n'y a pas de manipulation physique ou de médication, et les séances sont totalement adaptées à vos besoins.",
+                image: "/images/lac.jpg"
             },
             {
                 id: 2,
                 title: "Réduction du stress et de l'anxiété",
-                content: "Le Reiki est une technique qui permet de calmer le mental et de réduire les tensions physiques et émotionnelles. En rééquilibrant votre énergie, il vous aide à retrouver un état de paix intérieure."
+                content: "Le Reiki est une technique qui permet de calmer le mental et de réduire les tensions physiques et émotionnelles. En rééquilibrant votre énergie, il vous aide à retrouver un état de paix intérieure.",
+                image: "/images/galets.jpg"
             },
             {
                 id: 3,
                 title: "Harmonisation des émotions",
-                content: "En agissant directement sur l'énergie de votre corps, le Reiki permet de libérer les émotions bloquées ou refoulées, apaisant ainsi les peurs, l'anxiété ou la tristesse."
+                content: "En agissant directement sur l'énergie de votre corps, le Reiki permet de libérer les émotions bloquées ou refoulées, apaisant ainsi les peurs, l'anxiété ou la tristesse.",
+                image: "/images/arbres.jpg"
             },
             {
                 id: 4,
                 title: "Soutien dans les périodes de transition",
-                content: "Que vous traversiez une période de changement personnel ou professionnel, le Reiki vous accompagne en favorisant la clarté mentale et en vous apportant la force nécessaire pour avancer."
+                content: "Que vous traversiez une période de changement personnel ou professionnel, le Reiki vous accompagne en favorisant la clarté mentale et en vous apportant la force nécessaire pour avancer.",
+                image: "/images/plage.jpg"
             },
             {
                 id: 5,
                 title: "Renforcement du système immunitaire",
-                content: "Le Reiki peut aider à stimuler les capacités d'auto-guérison de votre corps. En favorisant la relaxation, il permet à votre organisme de se régénérer plus efficacement."
+                content: "Le Reiki peut aider à stimuler les capacités d'auto-guérison de votre corps. En favorisant la relaxation, il permet à votre organisme de se régénérer plus efficacement.",
+                image: "/images/foret.jpg"
             },
             {
                 id: 6,
                 title: "Soin complémentaire pour les douleurs physiques",
-                content: "Le Reiki agit aussi sur le corps, aidant à soulager les douleurs et tensions physiques, apportant un soulagement naturel et profond."
+                content: "Le Reiki agit aussi sur le corps, aidant à soulager les douleurs et tensions physiques, apportant un soulagement naturel et profond.",
+                image: "/images/goutte.jpg"
             },
             {
                 id: 7,
                 title: "Connexion spirituelle et équilibre énergétique",
-                content: "Le Reiki favorise une harmonisation énergétique, vous aidant à vous sentir aligné avec votre corps, votre esprit et votre environnement."
+                content: "Le Reiki favorise une harmonisation énergétique, vous aidant à vous sentir aligné avec votre corps, votre esprit et votre environnement.",
+                image: "/images/fleurs.jpg"
             }
         ],
         imageWhy: "/images/reiki2.PNG",

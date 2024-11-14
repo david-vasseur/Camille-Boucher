@@ -6,6 +6,7 @@ import { TfiViewList } from "react-icons/tfi";
 import BackButton from "./BackButton";
 import { FaXmark } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import { div } from "framer-motion/client";
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -30,17 +31,23 @@ function NavBar() {
               )}
             </div>
           </div>
-          <div className="hidden lg:flex lg:gap-8 font-oldStandard text-[1.4rem] font-semibold text-shadow-lg items-center justify-end">
-            <Link href="/" onClick={() => setNavbar(false)}>
-              Accueil
-            </Link>
-            <Link href="/mon_histoire" onClick={() => setNavbar(false)}>
-              Qui suis-je ?
-            </Link>
-            {index.map((elem) => (
-              <Link key={elem.id} href={elem.buttonTo} onClick={() => setNavbar(false)}>
-                {elem.title}
+          <div className="hidden lg:flex lg:gap-8 font-oldStandard text-[1.4rem] font-bold items-center justify-end">
+            <div className="shineNav">
+              <Link href="/">
+                Accueil
               </Link>
+            </div>
+            <div className="shineNav" >
+              <Link href="/mon_histoire" onClick={() => setNavbar(false)} >
+                Qui suis-je ?
+              </Link>
+            </div>
+            {index.map((elem) => (
+              <div key={elem.id} className="shineNav">
+                <Link href={elem.buttonTo} onClick={() => setNavbar(false)}>
+                  {elem.title}
+                </Link>
+              </div>
             ))}
           </div>
           <motion.div
@@ -54,7 +61,7 @@ function NavBar() {
             }}
             transition={{ duration: 0.3 }}
           >
-            <div className="h-[100vh] items-center justify-start lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] font-semibold text-shadow-lg">
+            <div className="h-[100vh] items-center justify-start lg:justify-end flex gap-5 lg:gap-8 flex-col lg:flex-row font-oldStandard text-[1.4rem] lg:text-[1rem] font-semibold text-shadow-lg">
               <Link href="/" onClick={() => setNavbar(false)}>
                 Accueil
               </Link>

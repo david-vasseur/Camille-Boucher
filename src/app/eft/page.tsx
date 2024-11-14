@@ -5,6 +5,7 @@ import Page_Why from '@/components/Page_Why';
 import Page_For from '@/components/Page_For';
 import Page_Header from '@/components/Page_Header';
 import DateForm from '@/components/DateForm';
+import Advertissement from '@/components/Advertissement';
 
 function Page() {
 
@@ -18,23 +19,23 @@ function Page() {
             <section>
                 <Page_For data={pageContent[0]} />
             </section>
-            <section className="mb-6">
-                <h2 className="font-parisienne text-[2rem] font-semibold p-4 text-center">Prêt(e) à libérer vos émotions et retrouver votre bien-être ?</h2>
-                <p className="font-oldStandard pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez sérénité et équilibre dans votre quotidien.</p>
+            <section className="mb-6 lg:my-12">
+                <h2 className="font-parisienne text-[2rem] font-semibold p-4 text-center lg:text-[3rem]">Prêt(e) à libérer vos émotions et retrouver votre bien-être ?</h2>
+                <div className=" block lg:flex lg:flex-col lg:items-center lg:gap-10 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:mt-10">
+                    <p className="font-oldStandard pt-2 text-justify lg:text-[1.2rem] lg:w-[50vw] lg:text-center">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez sérénité et équilibre dans votre quotidien.</p>
+                    <Button to='/mon_histoire#contact' description='Contactez-moi...' />
+                </div>
             </section>
-            <Button to='/mon_histoire#contact' description='Contactez-moi...' />
-            <section className="mt-6">
-                <h2 className="font-parisienne text-[2rem] font-semibold text-center mt-4">Tarifs</h2>
-                <ul>
+            
+            <section className="mt-6 lg:my-12 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl">
+                <h2 className="font-parisienne text-[2rem] font-semibold text-center mt-4 lg:text-[3rem]">Tarifs</h2>
+                <ul className="lg:text-[1.2rem]">
                     <li>Première séance d&apos;1h30 : 70€</li>
                     <li>Séances suivantes d&apos;1h00 : 50€</li>
                     <li>Séances pour Ado/Enfants de 30 minutes : 30€</li>
                 </ul>
             </section>
-            <section className="mb-10 mt-5">
-                <h2 className="text-[2rem] font-semibold p-4 text-center">Avertissement</h2>
-                <p className="p-4 text-justify font-semibold">&quot; Il est important de noter que l&apos;EFT, ainsi que toute autre forme de médecine douce, ne remplace en aucun cas l&apos;avis ou le traitement d&apos;un professionnel de santé qualifié. Pour toute condition médicale, il est essentiel de consulter un médecin &quot;</p>
-            </section>
+            <Advertissement />
             <div className="mx-auto">
                 <DateForm />
             </div>

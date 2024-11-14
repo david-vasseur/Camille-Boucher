@@ -37,7 +37,7 @@ function CommentCreate() {
     }
 
   return (
-    <div className="border-2 border-third rounded-lg p-4 w-[80vw] mt-8 flex flex-col gap-2">
+    <div className="md:w-[35vw] border-2 border-third rounded-lg p-4 w-[80vw] mt-8 flex flex-col gap-2 shadow-lg">
         <h4 className="mb-4 font-oldStandard text-lg text-center">Ajouter un commentaire</h4>
         <input type="text" className="border rounded-md p-2" placeholder="Votre nom" onChange={(e) => setAuthor(e.target.value)} />
         <textarea className="border rounded-md p-2" placeholder="Votre commentaire" onChange={(e) => setMessage(e.target.value)} />

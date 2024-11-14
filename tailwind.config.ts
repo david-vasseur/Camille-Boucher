@@ -7,7 +7,7 @@ const textShadowPlugin = plugin(function({ addUtilities }) {
       textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)',
     },
     '.text-shadow-lg': {
-      textShadow: '1px 1px 1.5px rgba(0, 0, 0, 0.9)',
+      textShadow: '1.5px 1px 1.5px rgba(0, 0, 0, 0.9)',
     },
   };
 
@@ -41,11 +41,12 @@ const config: Config = {
       },
       textShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',
-        'lg': '3px 3px 6px rgba(0, 0, 0, 1)',
+        'lg': '10px 10px 10px rgba(0, 0, 0, 1)',
       },
       boxShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',
         'lg': '5px 2px 5px 1px rgba(0, 0, 0, 0.5)',
+        'lgg': '10px 10px 15px 1px rgba(0, 0, 0, 0.5)',
         'button': '1px 3px 0px rgba(0, 0, 0, 0.5)'
       }
     },

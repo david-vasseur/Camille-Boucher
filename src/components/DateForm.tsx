@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import React, { useState } from 'react';
 import Button from './Button';
 import { FaXmark } from 'react-icons/fa6';
+import Modal from './Modal';
 
 interface IValues {
     nom: string;
@@ -18,6 +19,7 @@ interface IValues {
 function DateForm() {
 
     const [isVisible, setIsVisible] = useState(false);
+    const [isModal, setIsModal] = useState(false);
 
     const initialValues = {
         nom: "",
@@ -50,6 +52,7 @@ function DateForm() {
                 body: JSON.stringify(values)
         })
         const data = await response.json();
+        setIsModal(!isModal)
         resetForm();
         return data
     }
@@ -64,7 +67,9 @@ function DateForm() {
             e.preventDefault();
         }}
     />
-    
+    {isModal && 
+        <Modal>Votre demande de rendez-vous a bien été prise en compte</Modal>
+    }
     {isVisible && (
         <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
             <div className="relative sm:w-[40vw] w-[90vw] max-h-[80vh] sm:max-h-[90vh] bg-secondary_color sm:rounded-2xl rounded-lg border-2 border-slate-800 p-8 pt-12 overflow-y-auto shadow-lg">

@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-secondary_color`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-secondary_color md-background`}
       >
         <NavBar />
         {children}

@@ -9,9 +9,9 @@ interface ButtonProps {
 
 function Button({ onClick, to, description }: ButtonProps) {
   return (
-    <div>
+    <div className="shine font-sans rounded-2xl bg-slate-200 text-third_color border-2 border-solid border-primary_color text-center shadow-button text-shadow font-semibold">
         <Link href={to} onClick={onClick}
-          className=" font-oldStandard rounded-2xl bg-slate-200 text-third_color border-2 border-solid border-primary_color p-2 px-3 text-center shadow-button text-shadow-lg font-semibold"
+          className="block py-2 px-3"
         >
             {description}
         </Link>
@@ -19,4 +19,4 @@ function Button({ onClick, to, description }: ButtonProps) {
   )
 }
 
-export default Button
+export default Button;

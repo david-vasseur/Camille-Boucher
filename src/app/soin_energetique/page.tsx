@@ -5,6 +5,7 @@ import Page_Why from '@/components/Page_Why';
 import Page_For from '@/components/Page_For';
 import { pageContent } from '../data';
 import DateForm from '@/components/DateForm';
+import Advertissement from '@/components/Advertissement';
 
 function Page() {
     return (
@@ -18,7 +19,7 @@ function Page() {
                     <Page_For data={pageContent[3]} />
                 </section>
             <section>
-                <h2 className="text-[2rem] font-semibold p-4 text-center">Prêt(e) à libérer vos émotions et retrouver votre bien-être ?</h2>
+                <h2 className="text-[2rem] font-semibold p-4 text-center lg:text-[2rem]">Prêt(e) à libérer vos émotions et retrouver votre bien-être ?</h2>
                 <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez sérénité et équilibre dans votre quotidien.</p>
             </section>
             <Button to="/mon_histoire#contact" description="Contactez-moi..." />
@@ -29,10 +30,7 @@ function Page() {
                     <li>Forfait de 3 seances : 160€</li>
                 </ul>
             </section>
-            <section className="mb-10 mt-5">
-                <h2 className="text-[2rem] font-semibold p-4 text-center">Avertissement</h2>
-                <p className="p-4 text-justify font-semibold">Il est important de noter que le Reiki, ainsi que toute autre forme de médecine douce, ne remplace en aucun cas l&apos;avis ou le traitement d&apos;un professionnel de santé qualifié. Pour toute condition médicale, il est essentiel de consulter un médecin.</p>
-            </section>
+            <Advertissement />
             <DateForm />
         </main>
     </div>
