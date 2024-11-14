@@ -84,7 +84,7 @@ export default function Home() {
                                 width={300}
                                 height={300} 
                             />
-                    <Slide side="left" className="mx-auto" width="100%">
+                    <Slide className="mx-auto" width="100%">
                         <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Emotional Freedom Technique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
@@ -103,7 +103,7 @@ export default function Home() {
                                 width={300}
                                 height={300} 
                             />
-                    <Slide side="left" className="mx-auto" width="100%">
+                    <Slide className="mx-auto" width="100%">
                         <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Soin énergétique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
@@ -122,7 +122,7 @@ export default function Home() {
                                 width={300}
                                 height={300} 
                             />
-                    <Slide side="left" className="mx-auto" width="100%">
+                    <Slide className="mx-auto" width="100%">
                         <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Massage holistique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
@@ -141,7 +141,7 @@ export default function Home() {
                                 width={300}
                                 height={300} 
                             />
-                    <Slide side="left" className="mx-auto" width="100%">
+                    <Slide className="mx-auto" width="100%">
                         <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Fleurs de Bach</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
@@ -167,7 +167,7 @@ export default function Home() {
                 <Image src={"/images/map.jpg"} alt="carte" width={400} height={300} className="rounded-2xl shadow-lg hover:scale-[1.5] hover:shadow-xl transition-all duration-[.4s]" />
                 </div>
             </section>
-            <Slide side="left">
+            <Slide>
                 <h3 className="font-bold font-parisienne text-center mt-16 mb-8 text-2xl lg:text-4xl">Vos témoignages</h3>
             </Slide>
             

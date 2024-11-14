@@ -6,7 +6,6 @@ import { TfiViewList } from "react-icons/tfi";
 import BackButton from "./BackButton";
 import { FaXmark } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
