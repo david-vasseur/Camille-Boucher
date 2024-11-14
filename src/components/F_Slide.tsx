@@ -11,7 +11,6 @@ interface IProps {
 
 function Slide({ children, width = "fit-content", side, className }: IProps) {
 
-    const direction = side === "left" ? "-100vw" : "100vw";
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
