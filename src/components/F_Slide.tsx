@@ -5,11 +5,10 @@ import { motion, useInView } from 'framer-motion';
 interface IProps {
     children: JSX.Element;
     width?: "fit-content" | "100%";
-    side: "left" | "right";
     className?: string;
 }
 
-function Slide({ children, width = "fit-content", side, className }: IProps) {
+function Slide({ children, width = "fit-content", className }: IProps) {
 
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });

@@ -50,7 +50,7 @@ function Page_Why({ data }: PageWhyProps) {
                 {data.contentWhy.map(item => (
                     <div onClick={() => {handleClick(item.id)}} key={item.id} id={`div-why-${item.id}`} className="md:flex md:flex-col md:justify-center md:p-2 md:h-[20vh] md:border-2 md:w-[9vw] md:border-slate-500 md:rounded-xl md:shadow-lg md:bg-gradient-to-r md:from-secondary_color md:to-fourth_color md-hover">
                             <Image alt='fond de la carte' src={item.image} width={300} height={300} className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"/>
-                            <Slide side="left" width="100%" className="mx-auto md:min-h-[15vh] lg:flex lg:flex-col lg:justify-center">
+                            <Slide width="100%" className="mx-auto md:min-h-[15vh] lg:flex lg:flex-col lg:justify-center">
                                 <h3 className="font-oldStandard text-[1.2rem] text-center md:w-[100%] md:h-[100%] font-semibold mt-6 p-4 md:p-0 lg:text-[1.3rem] lg:mt-0 lg:contrast-150 lg:brightness-200 lg:font-bold lg:text-shadow-lg">{item.title}</h3>
                             </Slide>
                             <p id={`text-why-${item.id}`} className="font-oldStandard p-10 pt-2 text-justify md:w-[20vw] md:hidden">{item.content}</p>
