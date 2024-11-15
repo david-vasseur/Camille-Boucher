@@ -52,7 +52,7 @@ function Page_Why({ data }: PageWhyProps) {
                                     </Slide>
                                 </div>
                                 <div className="lg-back lg:rounded-xl">
-                                    <p className="font-oldStandard p-10 pt-2 text-justify lg:text-center lg:p-1 lg:text-shadow-lg">
+                                    <p className="font-oldStandard p-10 pt-2 text-justify lg:text-center lg:p-1 lg:text-shadow">
                                     {item.content}
                                     </p>
                                 </div>

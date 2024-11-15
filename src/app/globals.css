@@ -53,7 +53,7 @@ body {
 
   .lg-container:hover > .lg-card {
     cursor: pointer;
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) rotateZ(180deg);
   }
 
   .lg-card {
@@ -90,7 +90,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) rotateZ(180deg);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514)
   }
 }
