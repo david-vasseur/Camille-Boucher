@@ -34,7 +34,7 @@ function Page_Why({ data }: PageWhyProps) {
                     {data.contentWhy.map(item => (
                         <div
                         key={item.id}
-                        className="lg:flex lg:flex-col lg:justify-center lg:p-2 lg:h-[30vh]  lg:w-[15vw]  lg-container"
+                        className="lg:flex lg:flex-col lg:justify-center lg:p-2 lg:h-[30vh]  lg:w-[15vw] min-w-[14rem]  lg-container"
                         >
                             <div className="lg-card lg:border-slate-500 lg:rounded-xl lg:border-2">
                                 <div className="lg-front lg:rounded-xl">
@@ -45,14 +45,14 @@ function Page_Why({ data }: PageWhyProps) {
                                     height={300}
                                     className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
                                     />
-                                    <Slide width="100%" className="mx-auto lg:min-h-[15vh] lg:flex lg:flex-col lg:justify-center lg:items-center">
+                                    <Slide width="100%" className="mx-auto lg:min-h-[10vh] lg:flex lg:flex-col lg:justify-center lg:items-center">
                                     <h3 className="font-oldStandard text-[1.2rem] text-center lg:w-[100%] lg:h-[100%] font-semibold mt-6 p-4 lg:p-0 lg:text-[1.4rem] lg:mt-0 lg:contrast-50 lg:brightness-200 lg:font-bold lg:text-shadow-lg">
                                         {item.title}
                                     </h3>
                                     </Slide>
                                 </div>
                                 <div className="lg-back lg:rounded-xl">
-                                    <p className="font-oldStandard p-10 pt-2 text-justify lg:text-center lg:p-1 lg:text-shadow">
+                                    <p className="font-oldStandard p-10 pt-2 text-justify lg:text-[.8rem] xl:text-[1rem] lg:text-center lg:p-1 lg:text-shadow">
                                     {item.content}
                                     </p>
                                 </div>
