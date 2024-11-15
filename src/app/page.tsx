@@ -76,45 +76,50 @@ export default function Home() {
             
             <section className="mt-8 lg:w-[90vw] lg:justify-between lg:mt-16 lg:flex lg:gap-4 lg:h-[40vh] max-w-[1920px]">
 
-                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-between lg:w-[20vw] lg:relative lg:overflow-hidden group">
-                <Image
-                                src="/images/Untitled design.PNG"
-                                alt="photo de camille"
-                                className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
-                                width={300}
-                                height={300} 
-                            />
+                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-evenly lg:w-[20vw] lg:relative lg:overflow-hidden group">
+                    <Image
+                        src="/images/Untitled design.PNG"
+                        alt="photo de camille"
+                        className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
+                        width={300}
+                        height={300} 
+                    />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Emotional Freedom Technique</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Emotional Freedom Technique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
-                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg">
+                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
                             Découvrez l&apos;EFT, une technique douce et puissante pour libérer les émotions et retrouver un équilibre intérieur.
                         </p>
-                        <Button to="/eft" description="Découvrir" />
+                        <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
+                            <Button to="/eft" description="Découvrir" />
+                        </div>
+                        
                     </div>
                 </div>
                 
-                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-between lg:w-[20vw] lg:relative lg:overflow-hidden group">
-                <Image
-                                src="/images/reiki1.PNG"
-                                alt="photo de camille"
-                                className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
-                                width={300}
-                                height={300} 
-                            />
+                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-evenly lg:w-[20vw] lg:relative lg:overflow-hidden group">
+                    <Image
+                        src="/images/reiki1.PNG"
+                        alt="photo de camille"
+                        className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
+                        width={300}
+                        height={300} 
+                    />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Soin énergétique</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Soin énergétique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
-                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg">
+                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
                             Explorez le Reiki, une approche bienveillante et naturelle pour rééquilibrer vos énergies afin d&apos;apaiser le corps et l&apos;esprit.
                         </p>
-                        <Button to="/soin_energetique" description="Découvrir" />
+                        <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
+                            <Button to="/soin_energetique" description="Découvrir" />
+                        </div>
                     </div>
                 </div>
 
-                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-between lg:w-[20vw] lg:relative lg:overflow-hidden group">
+                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-evenly lg:w-[20vw] lg:relative lg:overflow-hidden group">
                 <Image
                                 src="/images/massage1.jpg"
                                 alt="photo de camille"
@@ -123,17 +128,19 @@ export default function Home() {
                                 height={300} 
                             />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Massage holistique</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Massage holistique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
-                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg">
+                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
                             Offrez-vous un moment de détente profonde avec le massage holistique, une expérience globale qui harmonise corps, esprit et émotions pour un bien-être complet.
                         </p>
-                        <Button to="/massage_holistique" description="Découvrir" />
+                        <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
+                            <Button to="/massage_holistique" description="Découvrir" />
+                        </div>
                     </div>
                 </div>
                 
-                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-between lg:w-[20vw] lg:relative lg:overflow-hidden group">
+                <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-evenly lg:w-[20vw] lg:relative lg:overflow-hidden group">
                 <Image
                                 src="/images/bach1.jpg"
                                 alt="photo de camille"
@@ -142,13 +149,15 @@ export default function Home() {
                                 height={300} 
                             />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150">Fleurs de Bach</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Fleurs de Bach</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
-                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg">
+                        <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
                             Initiez-vous aux fleurs de Bach, des essences florales naturelles pour harmoniser vos émotions et retrouver un équilibre.
                         </p>
+                        <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
                         <Button to="/fleurs_de_bach" description="Découvrir" />
+                        </div>
                     </div>
                 </div>
             </section>    

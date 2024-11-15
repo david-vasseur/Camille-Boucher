@@ -1,4 +1,3 @@
-import Button from '@/components/Button'
 import React from 'react'
 import Page_Header from '@/components/Page_Header';
 import Page_Why from '@/components/Page_Why';
@@ -6,6 +5,7 @@ import Page_For from '@/components/Page_For';
 import { pageContent } from '../data';
 import DateForm from '@/components/DateForm';
 import Advertissement from '@/components/Advertissement';
+import Ready from '@/components/Ready';
 
 function Page() {
     return (
@@ -19,17 +19,15 @@ function Page() {
                     <Page_For data={pageContent[2]} />
                 </section>
                 <section>
-                    <h2 className="text-[2rem] font-semibold p-4 text-center">Prêt(e) à libérer vos tensions et retrouver votre bien-être ?</h2>
-                    <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez réserver une séance, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons pour que vous retrouviez équilibre et sérénité dans votre vie quotidienne.</p>
+                    <Ready />
                 </section>
-                <Button to='/mon_histoire#contact' description='Contactez-moi...' />
-                <section>
-                    <h2 className="text-[2rem] font-semibold p-4 text-center mt-4">Tarifs</h2>
-                    <ul>
+                <section className="mt-6 lg:my-12 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl">
+                    <h2 className="font-parisienne text-[2rem] font-semibold text-center mt-4 lg:text-[3rem]">Tarifs</h2>
+                    <ul className="lg:text-[1.2rem]">
                         <li>Séance d&apos;une heure : 70€</li>
                     </ul>
                 </section>
-                <Advertissement />
+                <Advertissement item="le massage holistique" />
                 <DateForm />
             </main>
         </div>

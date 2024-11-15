@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from '@/components/Button';
 import { pageContent } from '../data';
 import Page_Header from '@/components/Page_Header';
 import Page_Why from '@/components/Page_Why';
 import Page_For from '@/components/Page_For';
 import DateForm from '@/components/DateForm';
 import Advertissement from '@/components/Advertissement';
+import Ready from '@/components/Ready';
 
 function Page() {
     return (
@@ -19,18 +19,16 @@ function Page() {
                     <Page_For data={pageContent[1]} />
                 </section>
                 <section>
-                    <h2 className="text-[2rem] font-semibold p-4 text-center">Prêt(e) à transformer vos émotions et retrouver votre équilibre ?</h2>
-                    <p className="p-10 pt-2 text-justify">Si vous avez des questions ou souhaitez prendre rendez-vous pour une consultation, n&apos;hésitez pas à me contacter. Ensemble, nous travaillerons à améliorer votre bien-être émotionnel et mental.</p>
+                    <Ready />
                 </section>
-                <Button to='/mon_histoire#contact' description='Contactez-moi...' />
-                <section>
-                    <h2 className="text-[2rem] font-semibold p-4 text-center mt-4">Tarifs</h2>
-                    <ul>
+                <section className="mt-6 lg:my-12 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl">
+                    <h2 className="font-parisienne text-[2rem] font-semibold text-center mt-4 lg:text-[3rem]">Tarifs</h2>
+                    <ul className="lg:text-[1.2rem]">
                         <li>Consultation d&apos;une heure (bilan + flacon) : 40 €</li>
                         <li>Recharge de flacon : 15 € ou offert avec un soin</li>
                     </ul>
-                </section>
-                <Advertissement />
+            </section>
+                <Advertissement item="les fleurs de bach" />
                 <DateForm />
             </main>
         </div>

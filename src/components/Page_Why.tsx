@@ -29,7 +29,7 @@ function Page_Why({ data }: PageWhyProps) {
         <section className="lg:flex lg:flex-col lg:justify-center lg:items-center">
             <h2 className="font-parisienne text-[2rem] text-center mt-4 mb-4 font-bold lg:text-[3rem]">{data.titleWhy}</h2>
             <div className="lg:flex lg:flex-col lg:gap-36 lg:items-center lg:justify-center lg:my-24 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:w-[80vw]">
-                <p className="font-oldStandard text-justify mt-4 mb-4 lg:text-[1.2rem] lg:w-[60%] lg:text-center">{data.resumeWhy}</p>
+                <p className="font-oldStandard text-justify mt-4 mb-4 lg:text-[1.2rem] lg:w-[60%] lg:text-center lg:text-shadow">{data.resumeWhy}</p>
                 <div className="lg:flex lg:flex-wrap lg:justify-center lg:p-2 lg:gap-[0.6rem]">
                     {data.contentWhy.map(item => (
                         <div
@@ -63,7 +63,7 @@ function Page_Why({ data }: PageWhyProps) {
                 <div className="w-[90vw] mt-2 mb-2 m-auto lg:hidden">
                     <Image src={data.imageWhy} alt="" className="rounded-2xl border-2 border-slate-200 shadow-lg" width={400} height={400} />
                 </div>
-                <p  className="font-oldStandard text-justify lg:text-[1.2rem] lg:w-[60%] lg:text-center">{data.endWhy}</p>
+                <p  className="font-oldStandard text-justify lg:text-[1.2rem] lg:w-[60%] lg:text-center lg:text-shadow">{data.endWhy}</p>
             </div>   
         </section>
     )

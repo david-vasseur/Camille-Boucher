@@ -78,7 +78,7 @@ function DateForm() {
                     onClick={() => setIsVisible(!isVisible)}
                 />
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
-                    <Form className="flex flex-col gap-5 justify-center items-center">
+                    <Form className="flex flex-col gap-5 justify-center items-center lg:px-[10vw]">
                         <div className="flex flex-col gap-2 w-[100%] ">
                             <label htmlFor="nom" className="text-center">Entrez votre nom</label>
                             <Field type="text" name="nom" className="px-2 py-1 rounded-lg shadow-lg" />
