@@ -30,7 +30,7 @@ function NavBar() {
               )}
             </div>
           </div>
-          <div className="hidden lg:flex lg:gap-8 font-oldStandard text-[1.4rem] font-bold items-center justify-end">
+          <div className="hidden lg:flex lg:gap-8 font-oldStandard text-[1.2rem] font-bold items-center justify-end">
             <div className="shineNav">
               <Link href="/">
                 Accueil
