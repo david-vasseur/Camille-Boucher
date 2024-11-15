@@ -279,7 +279,7 @@ export const pageContent = [
         contentWhy: [
             {
                 id: 1,
-                title: "Approche douce, appaisante et naturelle",
+                title: "Approche douce, apaisante et naturelle",
                 content: "Le Reiki est une méthode de soin naturelle et non-invasive. Il n'y a pas de manipulation physique ou de médication, et les séances sont totalement adaptées à vos besoins.",
                 image: "/images/lac.jpg"
             },

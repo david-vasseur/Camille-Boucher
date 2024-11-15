@@ -15,7 +15,7 @@ function Slide({ children, width = "fit-content", className }: IProps) {
 
   return (
     <div>
-        <div ref={ref} className={`relative overflow-hidden ${className}`} style={{width}}>
+        <div ref={ref} className={`overflow-hidden ${className}`} style={{width}}>
         <motion.div
                 variants={{
                     hidden: { opacity: 0, y: "15vh" },
