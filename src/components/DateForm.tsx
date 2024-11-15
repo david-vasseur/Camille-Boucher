@@ -80,27 +80,27 @@ function DateForm() {
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                     <Form className="flex flex-col gap-5 justify-center items-center lg:px-[10vw]">
                         <div className="flex flex-col gap-2 w-[100%] ">
-                            <label htmlFor="nom" className="text-center">Entrez votre nom</label>
+                            <label htmlFor="nom" className="text-center">Votre nom</label>
                             <Field type="text" name="nom" className="px-2 py-1 rounded-lg shadow-lg" />
-                            <ErrorMessage name="nom" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="nom" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <div className="flex flex-col gap-2 w-[100%]">
-                            <label htmlFor="prénom" className="text-center">Entrez votre prénom</label>
+                            <label htmlFor="prénom" className="text-center">Votre prénom</label>
                             <Field type="text" name="prénom" className="px-2 py-1 rounded-lg shadow-lg" />
-                            <ErrorMessage name="prénom" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="prénom" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <div className="flex flex-col gap-2 w-[100%]">
-                            <label htmlFor="téléphone" className="text-center">Entrez votre numéro de téléphone</label>
+                            <label htmlFor="téléphone" className="text-center">Votre numéro de téléphone</label>
                             <Field type="text" name="téléphone" className="px-2 py-1 rounded-lg shadow-lg" />
-                            <ErrorMessage name="téléphone" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="téléphone" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <div className="flex flex-col gap-2 w-[100%]">
-                            <label htmlFor="email" className="text-center">Entrez votre email</label>
+                            <label htmlFor="email" className="text-center">Votre email</label>
                             <Field type="email" name="email" className="px-2 py-1 rounded-lg shadow-lg" />
-                            <ErrorMessage name="email" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="email" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <div className="flex flex-col gap-2 w-[100%]">
@@ -112,19 +112,19 @@ function DateForm() {
                                 <option value="Massage holistique">Massage holistique</option>
                                 <option value="Soin energétique">Soin energétique</option>
                             </Field>
-                            <ErrorMessage name="soin" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="soin" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <div className="flex flex-col gap-2 w-[100%]">
                             <label htmlFor="message" className="text-center">Votre message</label>
                             <Field as="textarea" name="message" className="px-2 py-1 rounded-lg shadow-lg" />
-                            <ErrorMessage name="message" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="message" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <div className="flex flex-col gap-2 w-[100%]">
                             <label htmlFor="disponibilités" className="text-center">Vos disponibilités</label>
                             <Field as="textarea" name="disponibilités" className="px-2 py-1 rounded-lg shadow-lg" />
-                            <ErrorMessage name="disponibilités" component="div" className="text-red-600 font-semibold font-oldStandard" />
+                            <ErrorMessage name="disponibilités" component="div" className="text-red-400 text-shadow font-semibold font-oldStandard" />
                         </div>
 
                         <button type="submit" className="mt-10 px-6 py-2 rounded-2xl bg-slate-500 font-bold shadow-lg">Valider</button>
