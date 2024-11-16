@@ -243,7 +243,7 @@ export const pageContent = [
             image: "/images/fleurs.jpg"
           },
         ],
-        imageWhy: "/images/moi.PNG",
+        imageWhy: "/images/IMG_8436.WEBP",
         endWhy: `Le massage holistique est bien plus qu'une simple technique de relaxation. C'est une approche globale qui prend en compte votre bien-être physique, émotionnel et spirituel. En choisissant un massage holistique, vous optez pour une méthode douce et efficace qui favorise la restauration de l'équilibre dans votre vie. Que vous souhaitiez vous détendre, retrouver votre énergie ou surmonter des défis personnels, ce massage est un accompagnement précieux sur votre chemin vers le bien-être.`,
         titleFor: "Ce que vous pouvez attendre d'un massage holistique avec moi",
         contentFor: [
