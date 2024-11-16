@@ -82,28 +82,28 @@ function Page() {
                     </p>
                 </div>
             </section>
-            <section className=" mx-auto mt-24 lg:bg-slate-200 lg:p-4 lg:w-[40vw] lg:rounded-sm lg:shadow-xl">
+            <section className=" mx-auto mt-24 lg:bg-slate-200 lg:p-4 w-[90vw] lg:w-[50vw] lg:rounded-sm lg:shadow-xl flex flex-col gap-10 items-center">
                 <h3 className="text-[2rem] font-parisienne px-8 text-center mt-10" id="contact">Pour me contacter</h3>
-                <div className='flex flex-col gap-5 px-8 mt-10'>
-                    <div className="flex justify-between">
+                <div className='flex flex-col gap-5 px-8 mt-10 lg:w-full'>
+                    <div className="flex justify-start gap-5 lg:justify-between items-center">
                         <Link href="https://www.instagram.com/camille_daikoomyo_therapeute/" target="_blank">
                         <FaInstagram className='text-[2rem]' />
                         </Link>
                         <p>@camille_daikoomyo_therapeute</p>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-start gap-5 lg:justify-between items-center">
                         <Link href="https://m.me/camille.daikoomyo.therapeute" target="_blank">
                         <FaFacebook className='text-[2rem]' />
                         </Link>
                         <p>@camille.daikoomyo.therapeute</p>
                     </div>
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-start gap-5 lg:justify-between items-center">
                         <Link href="tel:+33618659510">
                         <FaPhone className='text-[2rem]' />
                         </Link>
                         <p>06 18 65 95 10</p>
                     </div>
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-start gap-5 lg:justify-between items-center">
                         <Link href="mailto:camille.b.35@hotmail.fr">
                         <FaAt className='text-[2rem]' />
                         </Link>
