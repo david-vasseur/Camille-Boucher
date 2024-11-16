@@ -1,7 +1,6 @@
 "use client"
-import React, { useState } from 'react'
-import Button from './Button'
-import Modal from './Modal';
+import React, { useState } from 'react';
+import Button from './Button';
 
 interface IData {
     author: string;
