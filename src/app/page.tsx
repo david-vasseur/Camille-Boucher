@@ -85,7 +85,7 @@ export default function Home() {
                         height={300} 
                     />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Emotional Freedom Technique</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl md:text-3xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Emotional Freedom Technique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
                         <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
@@ -107,7 +107,7 @@ export default function Home() {
                         height={300} 
                     />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Soin énergétique</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl md:text-3xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Soin énergétique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
                         <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
@@ -128,7 +128,7 @@ export default function Home() {
                                 height={300} 
                             />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Massage holistique</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl md:text-3xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Massage holistique</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
                         <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
@@ -149,7 +149,7 @@ export default function Home() {
                                 height={300} 
                             />
                     <Slide className="mx-auto" width="100%">
-                        <h3 className="font-parisienne text-center font-bold text-2xl lg:text-5xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Fleurs de Bach</h3>
+                        <h3 className="font-parisienne text-center font-bold text-2xl md:text-3xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Fleurs de Bach</h3>
                     </Slide>
                     <div className="flex flex-col gap-4 items-end lg:items-center lg:mb-2 lg:font-semibold">
                         <p className="font-oldStandard text-justify mb-2 lg:text-[1.1rem] lg:text-center lg:contrast-200 lg:text-shadow-lg lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">
