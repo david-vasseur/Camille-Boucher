@@ -10,12 +10,6 @@ const textShadowPlugin = plugin(function({ addUtilities }) {
       textShadow: '1.5px 1px 1.5px rgba(0, 0, 0, 0.9)',
     },
   };
-
-  // const formattedUtilities = Object.entries(newUtilities).reduce((acc, [key, value]) => {
-  //   acc[key] = value.textShadow; 
-  //   return acc;
-  // }, {} as Record<string, string>);
-
   addUtilities(newUtilities);
 });
 

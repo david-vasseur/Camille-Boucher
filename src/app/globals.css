@@ -28,7 +28,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  color: #8dabbd;
+  color: #6d9ebd;
   max-width: 1900px;
   margin: auto;
 }
@@ -159,3 +159,24 @@ body {
   text-shadow: 0px 0px 35px #d4ada4ec;
 }
 
+.mask-wrapper {
+  background: linear-gradient(180deg, transparent, #FBF2ED);
+}
+
+@media (min-width: 768px) {
+  .mask-wrapper {
+    background: linear-gradient(90deg, #FBF2ED, transparent, #FBF2ED);
+  }
+  .animate-comment {
+    animation: move 10s alternate infinite ease-in-out;
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(10%);
+  }
+}

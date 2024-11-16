@@ -10,7 +10,7 @@ interface IComment {
     createdAt: string;
 }
 
-function CommentWrapper() {
+function CommentWrapper({ className }: { className?: string }) {
     
     const [comments, setComments] = useState<IComment[]>([]);
 
@@ -24,7 +24,7 @@ function CommentWrapper() {
     }, []);
 
   return (
-    <div>
+    <div className={`flex flex-col md:flex-row gap-2 ${className}`}>
         {comments.map( comment => (
             <Comment key={comment.id} comment={comment} />
         ))}

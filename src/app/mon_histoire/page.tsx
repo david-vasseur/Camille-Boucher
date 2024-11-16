@@ -15,6 +15,7 @@ function Page() {
                 width={300} 
                 height={300} 
                 className="relative h-full w-full rounded-full object-cover z-0 image-before" 
+                loading='lazy'
             />
             </div>
         </header>
@@ -36,6 +37,7 @@ function Page() {
                     height={500}
                     className="rounded-[25px] shadow-lg float-left mr-14 mb-5 lg:h-[30rem] lg:w-[35rem]"
                     style={{ objectFit: 'cover' }}
+                    loading='lazy'
                     />
                     <p className="old-standard-tt-regular text-justify lg:text-[1.2rem] lg:mt-14">
                         En 2020, j&apos;ai entrepris ma formation pour devenir maître REIKI au centre de formation MAUNA à Calvisson (30). Cette expérience a été une véritable transformation pour moi. Pendant plusieurs semaines, j&apos;ai plongé dans l&apos;univers du Reiki, apprenant à canaliser l&apos;énergie universelle et à l&apos;utiliser pour favoriser la guérison et le bien-être. J&apos;ai découvert l&apos;importance de la méditation, des symboles et des mantras, ainsi que des techniques de relaxation et de rééquilibrage énergétique. Les séances pratiques m&apos;ont permis de développer mes compétences et d&apos;aller à ma rencontre et celle des autres. Ce parcours a renforcé ma connexion avec ma propre spiritualité. Devenir maître Reiki, me permet d&apos;accompagner les autres sur leur chemin de guérison avec compassion et respect.
@@ -50,6 +52,7 @@ function Page() {
                     height={500}
                     className="rounded-[25px] shadow-lg float-right ml-14 mb-5 lg:h-[30rem] lg:w-[35rem]"
                     style={{ objectFit: 'cover' }}
+                    loading='lazy'
                     />
                     <p className="old-standard-tt-regular text-justify lg:text-[1.2rem] lg:mt-14">
                         En 2021, j&apos;ai suivi une formation en massage holistique à l&apos;école Synergie Naturopathie, une étape essentielle dans mon parcours de praticienne en médecines douces. Cette formation m&apos;a permis d&apos;approfondir mes connaissances sur le corps humain et d&apos;apprendre des techniques variées pour favoriser la détente et le bien-être. Au cours de cette formation, j&apos;ai découvert l&apos;importance d&apos;une approche globale, prenant en compte non seulement les tensions physiques, mais aussi les aspects émotionnels et énergétiques de chaque personne. J&apos;ai appris à utiliser des gestes fluides et enveloppants, adaptés aux besoins spécifiques de chaque client, afin de créer une expérience de massage sur mesure. Cette formation a été une révélation, m&apos;offrant de nouveaux outils pour vous accompagner vers un bien-être total.
@@ -64,6 +67,7 @@ function Page() {
                     height={500}
                     className="rounded-[25px] shadow-lg float-left max-h-[40rem] mr-14 mb-5"
                     style={{ objectFit: 'cover' }}
+                    loading='lazy'
                     />
                     <p className="old-standard-tt-regular text-justify lg:text-[1.2rem] lg:mt-14">
                         En 2022, j&apos;ai eu l&apos;opportunité de suivre une formation en EFT (Technique de libération émotionnelle) avec Eric Bessone, au centre de formation en EFT à Aix-en-Provence. Cette méthode, qui combine des tapotements sur des points d&apos;acupuncture avec des affirmations verbales, m&apos;a permis d&apos;approfondir ma compréhension des émotions et de leurs impacts sur notre bien-être. Grâce à cette formation, j&apos;ai acquis des outils puissants pour vous aider à libérer vos blocages émotionnels et à retrouver un état d&apos;équilibre intérieur.

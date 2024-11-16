@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Button from './Button'
+import Modal from './Modal';
 
 interface IData {
     author: string;
@@ -8,7 +9,12 @@ interface IData {
     note: number | null;
 }
 
-function CommentCreate() {
+interface CommentCreateProps {
+    onCommentAdded: () => void;
+  }
+  
+
+function CommentCreate({ onCommentAdded }: CommentCreateProps) {
 
     const [author, setAuthor] = useState("");
     const [message, setMessage] = useState("");
@@ -31,7 +37,8 @@ function CommentCreate() {
                 setAuthor('');
                 setMessage('');
                 setNote(null);
-            }
+                onCommentAdded();
+            } 
             return response;
         } 
     }
@@ -49,10 +56,11 @@ function CommentCreate() {
             <option value="4">★★★★</option>
             <option value="5">★★★★★</option>
         </select>
-        <div className="text-center mt-4">
+        <div className="flex justify-center text-center mt-4">
             <Button onClick={(e) => {e.preventDefault(); handleAddComment(data)}} to="/" description="Valider" />
         </div>
     </div>
+    
   )
 }
 

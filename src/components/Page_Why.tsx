@@ -60,7 +60,7 @@ function Page_Why({ data }: PageWhyProps) {
                         </div>
                     ))}
                 </div>
-                <div className="w-[90vw] mt-2 mb-2 m-auto lg:hidden">
+                <div className="flex justify-center w-[90vw] mt-2 mb-5 m-auto lg:hidden">
                     <Image src={data.imageWhy} alt="" className="rounded-2xl border-2 border-slate-200 shadow-lg" width={400} height={400} />
                 </div>
                 <p  className="font-oldStandard text-justify lg:text-[1.2rem] lg:w-[60%] lg:text-center lg:text-shadow">{data.endWhy}</p>

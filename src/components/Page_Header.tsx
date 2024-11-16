@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import DateForm from './DateForm';
 
 interface ContentWhy {
     id: number;
@@ -33,15 +34,20 @@ interface PageWhyProps {
 
 function Page_Header({ data }: PageWhyProps) {
   return (
-    <header className="lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-[100vh]">
+    <header className="lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-[100vh] ">
         <h1 className="font-parisienne text-[3rem] text-center font-extrabold lg:text-[4rem]">{data.titleHeader}</h1>
-        <div className="lg:flex lg:gap-10 lg:items-center lg:justify-center lg:my-24 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:w-[70vw]">
+        <div className="lg:flex lg:gap-10 lg:items-center lg:justify-center lg:my-24 lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:w-[70vw] lg:relative">
           <p className="font-oldStandard text-justify mt-2 mb-2 lg:w-[40vw] lg:text-[1.2rem] lg:text-shadow">{data.contentHeader}</p>
           
-          <div className="w-[90vw] mt-2 mb-2 lg:w-[30vw]">
+          <div className="w-[90vw] flex flex-col items-center gap-5 mt-2 mb-2 lg:w-[30vw]">
               <Image src={data.imageHeader} alt="" className="rounded-2xl border-2 border-slate-200 shadow-lg lg:w-[100%]" width={400} height={400} />
+              <div className="2xl:absolute 2xl:bottom-10 2xl:left-10 flex justify-center ">
+                <DateForm />
+            </div>
           </div>
+          
         </div>
+
     </header>
   )
 }

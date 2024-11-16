@@ -24,8 +24,8 @@ export default function Home() {
 
         <section className="lg:gap-10 lg:px-16 lg:flex lg:flex-col">
     
-            <div className="lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:z-[2] lg:flex lg:gap-10 lg:w-[70vw]">
-                <div className="lg:w-[40vw] max-w-[1200px]">
+            <div className="lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:z-[2] flex flex-col xl:flex-row xl:gap-10 lg:w-[70vw]">
+                <div className="xl:w-[40vw] max-w-[1200px]">
                     <p className="font-oldStandard text-justify my-4 lg:text-[1.2rem] lg:contrast-75 text-shadow">
                         <strong className="lg:font-oldStandard lg:font-extrabold lg:text-[1.5rem]">Bonjour</strong> et <strong className="lg:font-oldStandard lg:font-extrabold lg:text-[1.5rem]">bienvenue</strong> sur mon site !</p><br/>
                     <p className="font-oldStandard text-justify my-4 lg:text-[1.2rem] lg:contrast-75 text-shadow">
@@ -37,7 +37,7 @@ export default function Home() {
                         <Button to="/mon_histoire" description="En savoir plus" />
                     </div>
                 </div>
-                <div className="m-auto lg:scale-[1.2] relative flex justify-center w-[310px] p-1 rounded-full border-gradient overflow-hidden mt-10  border-slate-400 border-4 lg:shadow-lg">
+                <div className="m-auto my-10 xl:my-auto xl:mr-5 lg:scale-[1.2] relative flex justify-center w-[310px] p-1 rounded-full border-gradient overflow-hidden mt-10  border-slate-400 border-4 lg:shadow-lg">
                     <div className="bg-white p-2 rounded-full lg:bg-transparent">
                         <Image
                             src="/images/profil.JPG"
@@ -51,16 +51,16 @@ export default function Home() {
                 
             </div>
 
-            <div className="lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:z-[2] lg:flex lg:gap-10 lg:w-[70vw] lg:items-center">
+            <div className="lg:bg-rose-50 lg:backdrop-blur-sm lg:p-8 lg:rounded-sm lg:shadow-xl lg:z-[2] xl:flex xl:gap-10 lg:w-[70vw] lg:justify-center lg:items-center">
                 <Image
                     src="/images/daikoomyo_accueil.jpg"
                     alt="logo daikoomyo"
-                    className="hidden lg:block rounded-full lg:rounded-full lg:border-2 lg:border-slate-400 lg:w-[500px] shadow-lg"
+                    className="mx-auto hidden lg:block rounded-full lg:rounded-full lg:border-2 lg:border-slate-400 lg:w-[500px] shadow-lg"
                     width={300}
                     height={300} 
                 />
 
-                <div className="lg:bg-transparent lg:p-8 lg:w-[40vw] lg:flex lg:flex-col lg:justify-between">
+                <div className="lg:bg-transparent lg:p-8 lg:w-full xl:w-[40vw] lg:flex lg:flex-col lg:justify-between">
                     <p className="font-oldStandard text-justify my-4 lg:text-[1.2rem] lg:contrast-75 text-shadow">
                         Je vous propose des outils complémentaires pour vous accompagner sur votre chemin. <br/>
                         <strong className="lg:font-oldStandard lg:font-extrabold lg:text-[1.5rem]">Ensemble</strong>, nous explorerons des pratiques douces et bienveillantes qui nourrissent <strong className="lg:font-oldStandard lg:font-extrabold lg:text-[1.5rem]">l&apos;équilibre du corps et de l&apos;esprit</strong>, tout en stimulant votre vitalité. Ces soins sont conçus pour enrichir votre parcours vers un bien-être global et durable, en harmonie avec vos besoins.
@@ -173,22 +173,22 @@ export default function Home() {
                     <p className="font-oldStandard text-justify mb-2 mt-4 lg:text-[1.2rem] lg:m-0 text-shadow">Pour offrir un accompagnement encore plus personnalisé et pratique, je propose des consultations à domicile dans un rayon de <strong className="lg:font-oldStandard lg:font-extrabold lg:text-[1.5rem]">30 km autour de Nîmes.</strong> Que ce soit pour des séances de Reiki, d&apos;EFT, des massages holistiques ou des conseils en Fleurs de Bach, je me déplace directement chez vous. Tout est pensé pour votre confort : j&apos;apporte le matériel nécessaire, y compris une table de massage professionnelle, des huiles adaptées, ainsi qu&apos;une ambiance apaisante pour que vous puissiez profiter pleinement des bienfaits des séances, dans le cocon de votre propre espace.</p>
                 </div>
                 <div className="hidden lg:block rounded-2xl">
-                <Image src={"/images/map.jpg"} alt="carte" width={400} height={300} className="rounded-2xl shadow-lg hover:scale-[1.5] hover:shadow-xl transition-all duration-[.4s]" />
+                <Image src={"/images/map.jpg"} alt="carte" width={400} height={300} className="rounded-2xl shadow-lg hover:scale-[1.1] hover:shadow-xl transition-all duration-[.4s]" />
                 </div>
             </section>
             <Slide>
                 <h3 className="font-bold font-parisienne text-center mt-16 mb-8 text-2xl lg:text-4xl">Vos témoignages</h3>
             </Slide>
             
-            <section className="flex flex-col items-center">
-                <div className="mt-8">
+            <section className="w-[70vw] max-h-[70vw] overflow-hidden flex flex-unwrap">
+                <div className="mt-8 ">
                     <div className="relative max-h-72 overflow-hidden mb-12">
-                        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-[#FBF2ED] pointer-events-none z-[10]"></div>
-                        <CommentWrapper />
+                        <div className="absolute bottom-0 left-0 right-0 md:w-full max-w-[70vw] h-full mask-wrapper pointer-events-none z-[10]"></div>
+                        <CommentWrapper className="animate-comment" />
                     </div>
                 </div>
             </section>
-            <div>
+            <div className="mt-10">
                 <Button to="/vos_avis" description="Voir plus..." />
             </div>
         </main>
