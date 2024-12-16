@@ -45,10 +45,10 @@ function Page_Why({ data }: PageWhyProps) {
                                     height={300}
                                     className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
                                     />
-                                    <Slide width="100%" className="mx-auto lg:min-h-[10vh] lg:flex lg:flex-col lg:justify-center lg:items-center">
-                                    <h3 className="font-oldStandard text-[1.2rem] text-center lg:w-[100%] lg:h-[100%] font-semibold mt-6 p-4 lg:p-0 lg:text-[1.4rem] lg:mt-0 lg:contrast-50 lg:brightness-200 lg:font-bold lg:text-shadow-lg">
-                                        {item.title}
-                                    </h3>
+                                    <Slide width="100%" className="mx-auto lg:min-h-[10vh] lg:flex lg:flex-col lg:justify-center lg:items-center ">
+                                        <h3 className="font-oldStandard text-[1.2rem] text-center lg:h-[100%] font-semibold mt-6 p-4  lg:text-[1.2rem] lg:mt-0 lg:contrast-50 lg:brightness-200 lg:font-bold lg:text-shadow-lg">
+                                            {item.title}
+                                        </h3>
                                     </Slide>
                                 </div>
                                 <div className="lg-back lg:rounded-xl">

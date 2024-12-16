@@ -21,7 +21,7 @@ function Page() {
         </header>
 
         <main className="flex flex-col gap-10">
-            <h3 className=" font-parisienne w-[80vw] lg:w-[50vw] mx-auto mt-4 text-center mb-2 text-[1.8rem] lg:text-[3rem]">&quot; Le véritable bien être réside dans l&apos;équilibre entre le corps, l&apos;esprit et l&apos;ame... &quot;</h3>
+            <h3 className=" font-parisienne w-[80vw] lg:w-[50vw] mx-auto mt-4 text-center mb-2 text-[1.8rem] lg:text-[3rem]">&quot; Le véritable bien être réside dans l&apos;équilibre entre le corps, l&apos;esprit et l&apos;âme... &quot;</h3>
             <section className="mt-10">
                 <div className="lg:bg-slate-200 lg:shadow-xl lg:p-8 ">
                     <p className="old-standard-tt-regular text-justify lg:text-[1.2rem]">

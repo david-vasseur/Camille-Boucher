@@ -85,7 +85,7 @@ body {
   }
 
   .lg-back {
-    background-color: rgba(214, 170, 177, 0.829);
+    background: linear-gradient(135deg, rgba(255, 206, 215, 0.829), rgba(214, 170, 177, 0.829));
     z-index: 1;
     display: flex;
     color: #5588a8;

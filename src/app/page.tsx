@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
         <header className="relative p-6 flex flex-col gap-4 items-center pt-16 lg:gap-10 lg:h-[100vh] lg:justify-between">
-            <Image src="/images/fond1.png" alt="Camille Boucher de dos sur le sommet d'une montagne" width={400} height={100} className="lg:z-[1] absolute h-[30vh] lg:h-[45vh] lg:w-[80vw] object-cover lg:object-contains lg:rounded-md lg:border-2 lg:mt-5 lg:shadow-xl lg:border-slate-400" />  
+            <Image src="/images/fond1.png" alt="Camille Boucher de dos sur le sommet d'une montagne" width={400} height={400} className="lg:z-[1] absolute h-[30vh] md:h-[55vh] lg:h-[45vh] lg:w-[80vw] object-cover lg:object-contains lg:rounded-md lg:border-2 lg:mt-5 lg:shadow-xl lg:border-slate-400" />  
             <div className="pt-6 z-10 lg:mt-5">
                 <h1 className="font-parisienne text-center text-[3rem] lg:text-[5rem] italic text-primary_color text-shadow-lg contrast-100">Camille Boucher</h1>
                 <h2 className="font-oldStandard font-bold text-center text-[1.8rem] contrast-200 text-shadow-lg">Thérapeute holistique <br />&<br />Énergéticienne</h2>
