@@ -57,16 +57,16 @@ function DateForm() {
         return data
     }
 
-  return (
-<div className="relative">
-    <Button
-        to="/eft#form"
-        description="Prendre un rendez vous"
-        onClick={(e) => {
-            setIsVisible(!isVisible);
-            e.preventDefault();
-        }}
-    />
+    return (
+        <div className="relative">
+            <Button
+                to="/eft#form"
+                description="Prendre un rendez vous"
+                onClick={(e) => {
+                    setIsVisible(!isVisible);
+                    e.preventDefault();
+                }}
+        />
     {isModal && 
         <Modal>Votre demande de rendez-vous a bien été prise en compte</Modal>
     }
@@ -139,4 +139,4 @@ function DateForm() {
   )
 }
 
-export default DateForm
+export default DateForm;

@@ -30,8 +30,8 @@ const config: Config = {
       },
       fontFamily: {
         josefin: ['Josefin Sans', 'sans-serif'],
-        oldStandard: ['Old Standard TT', 'serif'],
-        parisienne: ['Parisienne', 'cursive'],
+        oldStandard: ['var(--font-oldStandard)', 'serif'],
+        parisienne: ['var(--font-parisienne)', 'cursive'],
       },
       textShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.8)',

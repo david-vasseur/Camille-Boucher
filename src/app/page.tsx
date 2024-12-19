@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
         <header className="relative p-6 flex flex-col gap-4 items-center pt-16 lg:gap-10 lg:h-[100vh] lg:justify-between">
-            <Image src="/images/fond1.png" alt="Camille Boucher de dos sur le sommet d'une montagne" width={400} height={400} className="lg:z-[1] absolute h-[30vh] md:h-[55vh] lg:h-[45vh] lg:w-[80vw] object-cover lg:object-contains lg:rounded-md lg:border-2 lg:mt-5 lg:shadow-xl lg:border-slate-400" />  
+            <Image src="/images/fond1.png" alt="Camille Boucher de dos sur le sommet d'une montagne" width={400} height={400} loading="eager" className="lg:z-[1] absolute h-[30vh] md:h-[55vh] lg:h-[45vh] lg:w-[80vw] object-cover lg:object-contains lg:rounded-md lg:border-2 lg:mt-5 lg:shadow-xl lg:border-slate-400" />  
             <div className="pt-6 z-10 lg:mt-5">
                 <h1 className="font-parisienne text-center text-[3rem] lg:text-[5rem] italic text-primary_color text-shadow-lg contrast-100">Camille Boucher</h1>
                 <h2 className="font-oldStandard font-bold text-center text-[1.8rem] contrast-200 text-shadow-lg">Thérapeute holistique <br />&<br />Énergéticienne</h2>
@@ -34,7 +34,7 @@ export default function Home() {
                         <strong className="lg:font-oldStandard lg:font-extrabold lg:text-[1.5rem]">sur le sentier de la guérison intérieure</strong>, afin que vous puissiez retrouver votre véritable essence et vivre en pleine harmonie avec vous-même.
                     </p>
                     <div className="flex justify-end w-full lg:mt-16">
-                        <Button to="/mon_histoire" description="En savoir plus" />
+                        <Button to="/mon-histoire" description="En savoir plus" />
                     </div>
                 </div>
                 <div className="m-auto my-10 xl:my-auto xl:mr-5 lg:scale-[1.2] relative flex justify-center w-[310px] p-1 rounded-full border-gradient overflow-hidden mt-10  border-slate-400 border-4 lg:shadow-lg">
@@ -114,19 +114,19 @@ export default function Home() {
                             Explorez le Reiki, une approche bienveillante et naturelle pour rééquilibrer vos énergies afin d&apos;apaiser le corps et l&apos;esprit.
                         </p>
                         <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
-                            <Button to="/soin_energetique" description="Découvrir" />
+                            <Button to="/soin-energetique" description="Découvrir" />
                         </div>
                     </div>
                 </div>
 
                 <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-evenly lg:w-[20vw] lg:relative lg:overflow-hidden group">
-                <Image
-                                src="/images/massage1.jpg"
-                                alt="photo de camille"
-                                className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
-                                width={300}
-                                height={300} 
-                            />
+                    <Image
+                        src="/images/massage1.jpg"
+                        alt="photo de camille"
+                        className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
+                        width={300}
+                        height={300} 
+                    />
                     <Slide className="mx-auto" width="100%">
                         <h3 className="font-parisienne text-center font-bold text-2xl md:text-3xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Massage holistique</h3>
                     </Slide>
@@ -135,19 +135,19 @@ export default function Home() {
                             Offrez-vous un moment de détente profonde avec le massage holistique, une expérience globale qui harmonise corps, esprit et émotions pour un bien-être complet.
                         </p>
                         <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
-                            <Button to="/massage_holistique" description="Découvrir" />
+                            <Button to="/massage-holistique" description="Découvrir" />
                         </div>
                     </div>
                 </div>
                 
                 <div className="lg:rounded-md lg:shadow-lgg lg:p-2 lg:flex lg:flex-col lg:justify-evenly lg:w-[20vw] lg:relative lg:overflow-hidden group">
-                <Image
-                                src="/images/bach1.jpg"
-                                alt="photo de camille"
-                                className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
-                                width={300}
-                                height={300} 
-                            />
+                    <Image
+                        src="/images/bach1.jpg"
+                        alt="photo de camille"
+                        className="hidden lg:block lg:absolute z-[-1] w-full h-full top-0 left-0 lg:object-cover group-hover:blur-lg blur-sm transition-all duration-[.4s]"
+                        width={300}
+                        height={300} 
+                    />
                     <Slide className="mx-auto" width="100%">
                         <h3 className="font-parisienne text-center font-bold text-2xl md:text-3xl lg:text-4xl py-4 rounded-full mx-auto mt-5 lg:contrast-100 lg:text-[#be7676] lg:text-shadow-lg lg:brightness-150 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-[.5s]">Fleurs de Bach</h3>
                     </Slide>
@@ -156,7 +156,7 @@ export default function Home() {
                             Initiez-vous aux fleurs de Bach, des essences florales naturelles pour harmoniser vos émotions et retrouver un équilibre.
                         </p>
                         <div className="lg:absolute lg:opacity-0 lg:group-hover:opacity-[1] lg:top-[50%] lg:transition-opacity lg:duration-[1s] lg:w-[50%]">
-                        <Button to="/fleurs_de_bach" description="Découvrir" />
+                        <Button to="/fleurs-de-bach" description="Découvrir" />
                         </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@ export default function Home() {
                 </div>
             </section>
             <div className="mt-10">
-                <Button to="/vos_avis" description="Voir plus..." />
+                <Button to="/vos-avis" description="Voir plus..." />
             </div>
         </main>
     </div>

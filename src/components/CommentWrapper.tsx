@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import Comment from './Comment';
+import { fetchComments } from '@/utils/fetchComments';
 
 interface IComment {
     id: number; 
@@ -16,20 +17,20 @@ function CommentWrapper({ className }: { className?: string }) {
 
     useEffect(() => {
         const getComments = async () => {
-            const response = await fetch('/api/comments');
+            const response = await fetchComments();
             const data = await response.json()
             setComments(data);
         }
         getComments();
     }, []);
 
-  return (
-    <div className={`flex flex-col md:flex-row gap-2 ${className}`}>
-        {comments.map( comment => (
-            <Comment key={comment.id} comment={comment} />
-        ))}
-    </div>
-  )
+    return (
+        <div className={`flex flex-col md:flex-row gap-2 ${className}`}>
+            {comments.map( comment => (
+                <Comment key={comment.id} comment={comment} />
+            ))}
+        </div>
+    )
 }
 
-export default CommentWrapper
+export default CommentWrapper;

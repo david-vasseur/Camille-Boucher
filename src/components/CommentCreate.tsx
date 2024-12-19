@@ -18,9 +18,11 @@ function CommentCreate({ onCommentAdded }: CommentCreateProps) {
     const [author, setAuthor] = useState("");
     const [message, setMessage] = useState("");
     const [note, setNote] = useState<number | null>(null);
+    const [soin, setSoin] = useState<number | null>(null);
 
     const data = {
         author,
+        soin,
         message,
         note
     }
@@ -34,6 +36,7 @@ function CommentCreate({ onCommentAdded }: CommentCreateProps) {
             })
             if (response.ok) {
                 setAuthor('');
+                setSoin(null);
                 setMessage('');
                 setNote(null);
                 onCommentAdded();
@@ -46,6 +49,13 @@ function CommentCreate({ onCommentAdded }: CommentCreateProps) {
     <div className="md:w-[35vw] border-2 border-third rounded-lg p-4 w-[80vw] mt-8 flex flex-col gap-2 shadow-lg">
         <h4 className="mb-4 font-oldStandard text-lg text-center">Ajouter un commentaire</h4>
         <input type="text" className="border rounded-md p-2" placeholder="Votre nom" onChange={(e) => setAuthor(e.target.value)} />
+        <select onChange={(e) => setSoin(e.target.value ? Number(e.target.value) : null)} value={soin ?? ''} className="border rounded-md p-2">
+            <option value="">Soin ?</option>
+            <option value="1">EFT</option>
+            <option value="2">Reiki</option>
+            <option value="3">Massage holistique</option>
+            <option value="4">Fleurs de bach</option>
+        </select>
         <textarea className="border rounded-md p-2" placeholder="Votre commentaire" onChange={(e) => setMessage(e.target.value)} />
         <select onChange={(e) => setNote(e.target.value ? Number(e.target.value) : null)} value={note ?? ''} className="border rounded-md p-2">
             <option value="">Note</option>
@@ -63,4 +73,4 @@ function CommentCreate({ onCommentAdded }: CommentCreateProps) {
   )
 }
 
-export default CommentCreate
+export default CommentCreate;
