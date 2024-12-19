@@ -2,7 +2,7 @@ import { fetchCommentsBySoin } from "@/utils/fetchComments";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Daikoomyo - eft",
+	title: "Daikoomyo - E.F.T à Nîmes",
 	description: "Camille Boucher thérapeute",
 	metadataBase: new URL("https://www.daikoomyo.fr"),
 	openGraph: {
@@ -47,6 +47,8 @@ export default function EftLayout({
 						"postalCode": "30000",
 						"addressCountry": "FR"
 					},
+					"telephone": "+33 6 18 65 95 10",
+					"priceRange": "$$",
 					"url": "https://www.daikoomyo.fr/eft",
 					"geo": {
 						"@type": "GeoCoordinates",
@@ -59,51 +61,29 @@ export default function EftLayout({
 					],
 					"image": "https://www.daikoomyo.fr/images/Untitled%20design.PNG", 
 					"aggregateRating": {
-					"@type": "AggregateRating",
-					"ratingValue": reviews.length
-						? (
-							reviews.reduce(
-							(acc: number, review: {
-								author: string;
-								soin: number;
-								message: string;
-								note: number;
-								createdAt: string;
-							}) => acc + review.note,
-							0
-							) / reviews.length
-						).toFixed(1)
-						: "0",
-					"reviewCount": reviews.length,
-					"bestRating": "5",
-					"worstRating": "1",
-					"itemReviewed": {
-						"@type": "Service", 
-						"name": "Daikoomyo - E.F.T",
-					},
-					},
-					"review": reviews.map(
-					(review: {
-						author: string;
-						soin: number;
-						message: string;
-						note: number;
-						createdAt: string;
-					}) => ({
-						"@type": "Review",
-						"author": {
-						"@type": "Person",
-						"name": review.author,
-						},
-						"datePublished": review.createdAt,
-						"reviewBody": review.message,
-						"reviewRating": {
-						"@type": "Rating",
-						"ratingValue": review.note.toString(),
+						"@type": "AggregateRating",
+						"ratingValue": reviews.length
+							? (
+								reviews.reduce(
+								(acc: number, review: {
+									author: string;
+									soin: number;
+									message: string;
+									note: number;
+									createdAt: string;
+								}) => acc + review.note,
+								0
+								) / reviews.length
+							).toFixed(1)
+							: "0",
+						"reviewCount": reviews.length,
 						"bestRating": "5",
+						"worstRating": "1",
+						"itemReviewed": {
+							"@type": "Service", 
+							"name": "Daikoomyo - E.F.T à Nîmes",
 						},
-					})
-					),
+					},
 				}),
 				}}
 			/>
