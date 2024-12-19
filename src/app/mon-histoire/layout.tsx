@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     metadataBase: new URL("https://www.daikoomyo.fr"),
     openGraph: {
 		title: "Daikoomyo - mon histoire",
-		description: "Camille Boucher Thérapeute holistique",
+		description: "Camille Boucher - Thérapeute holistique",
 		url: "https://www.daikoomyo.fr",
 		type: "website",
 		images: [
