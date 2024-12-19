@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { fetchComments } from "../../utils/fetchComments"; 
 
 export const metadata: Metadata = {
     title: "Daikoomyo - Vos avis",
@@ -24,7 +23,6 @@ export const metadata: Metadata = {
         canonical: "https://www.daikoomyo.fr/vos-avis",
     },
 };
-const reviews = await fetchComments()
 export default function AvisLayout({
     children,
 }: {
