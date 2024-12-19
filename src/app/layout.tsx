@@ -59,18 +59,25 @@ const oldStandard = localFont({
 export const metadata: Metadata = {
 	title: "Daikoomyo - Camille Boucher thérapeute",
 	description: "Camille Boucher thérapeute",
-	metadataBase: new URL("http://www.daikoomyo.fr"),
+	metadataBase: new URL("https://www.daikoomyo.fr"),
 	openGraph: {
 		title: "Daikoomyo - Camille Boucher thérapeute",
 		description: "Camille Boucher Thérapeute holistique",
-		url: "http://www.daikoomyo.fr",
+		url: "https://www.daikoomyo.fr",
 		type: "website",
 		images: [
 			{
-				url: "http://www.daikoomyo.fr/images/fond2.PNG",
+				url: "https://www.daikoomyo.fr/images/fond2.PNG",
 			},
 		],
 	},
+	robots: {
+		index: true,
+		follow: true,
+  	},
+	alternates: {
+		canonical: "https://www.daikoomyo.fr",
+	}
 };
 
 export default function RootLayout(
