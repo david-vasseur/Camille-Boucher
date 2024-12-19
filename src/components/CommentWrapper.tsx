@@ -17,8 +17,7 @@ function CommentWrapper({ className }: { className?: string }) {
 
     useEffect(() => {
         const getComments = async () => {
-            const response = await fetchComments();
-            const data = await response.json()
+            const data = await fetchComments();
             setComments(data);
         }
         getComments();
